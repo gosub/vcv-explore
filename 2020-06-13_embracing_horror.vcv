@@ -8,6 +8,7 @@
       "model": "AudioInterface",
       "params": [],
       "leftModuleId": 11,
+      "rightModuleId": 22,
       "data": {
         "audio": {
           "driver": 1,
@@ -202,6 +203,19 @@
       },
       "pos": [
         0,
+        0
+      ]
+    },
+    {
+      "id": 22,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 1,
+      "text": "embracing horror - 2020-06-13\n\na slow square lfo scans the wavetable in macro oscillator and triggers the s&h that changes the note played, unquantized. The ping-pong delay adds some ambience.  Try changing the ping-pong rate for a cool effect. ",
+      "pos": [
+        49,
         0
       ]
     }
