@@ -1,0 +1,294 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 6,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.0",
+      "model": "Rings",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 20.9100037
+        },
+        {
+          "id": 3,
+          "value": 0.692000031
+        },
+        {
+          "id": 4,
+          "value": 0.734000087
+        },
+        {
+          "id": 5,
+          "value": 0.834499955
+        },
+        {
+          "id": 6,
+          "value": 0.686000109
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 6,
+      "rightModuleId": 5,
+      "data": {
+        "polyphony": 2,
+        "model": 2,
+        "easterEgg": false
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.0",
+      "model": "Clouds",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.272000015
+        },
+        {
+          "id": 4,
+          "value": 0.225500062
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.5
+        },
+        {
+          "id": 7,
+          "value": 0.393499613
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.711500347
+        },
+        {
+          "id": 10,
+          "value": 0.324000061
+        },
+        {
+          "id": 11,
+          "value": 0.369000047
+        },
+        {
+          "id": 12,
+          "value": 0.378000051
+        }
+      ],
+      "leftModuleId": 4,
+      "rightModuleId": 7,
+      "data": {
+        "playback": 0,
+        "quality": 0,
+        "blendMode": 3
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "plugin": "NYSTHI",
+      "version": "1.0.13",
+      "model": "NYEnvFollower",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.400000006
+        },
+        {
+          "id": 2,
+          "value": 0.62499994
+        },
+        {
+          "id": 3,
+          "value": 1.75
+        },
+        {
+          "id": 4,
+          "value": -1.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 11.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.127500042
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 4,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 5,
+      "text": "sleepy army - 2020-06-14\n\nThis patch is a reinterpretation of Comparative Irrelevance Three Module Challenge #25, Part 1.\nHere I simulate Mutable Instrument Ears by touching my laptop's integrated mic. The inverted gate is generated with nyenvfollower, with positive offset and negative scale. This gate is used to disengage Clouds' freeze when audio is over a certain threshold. You will probably have to play with the scale and offset to match your setup. The rest of the patch is the infamous ring into clouds :) Watch Comparative Irrelevance's video for more info and inspiration.",
+      "pos": [
+        48,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 0,
+      "outputModuleId": 1,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 1,
+      "outputModuleId": 6,
+      "outputId": 1,
+      "inputModuleId": 4,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 2,
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 3,
+      "outputModuleId": 4,
+      "outputId": 1,
+      "inputModuleId": 5,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 4,
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 5,
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 6,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#c91847"
+    }
+  ]
+}
