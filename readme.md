@@ -19,3 +19,7 @@ A slow square lfo scans the wavetable in macro oscillator and triggers the s&h t
 
  A reinterpretation of [Comparative Irrelevance's Three Module Challenge #25, Part 1](https://www.youtube.com/watch?v=1Xz87QkFaqo).
  Here I simulate Mutable Instruments Ears by touching my laptop's integrated mic. The inverted gate is from NYSTHI NyEnvFollower, with positive offset and negative scale. This gate is used to disengage Clouds' freeze when audio is over a certain threshold. You will probably have to play with the scale and offset to match your setup. The rest of the patch is the infamous Rings into Clouds :) Watch [Comparative Irrelevance's video](https://www.youtube.com/watch?v=1Xz87QkFaqo) for more info and inspiration.
+
+## a minor arraign - 2020-06-15
+
+Glitch producing patch. LFO, ADDR-SEQ and FM-OP are the sound source, a simple 4 notes sequence. Audio input for DELAY is alternatingly switched between audio and feedback, full wet and with no internal feedback. The same clock changes the delay time with a S&H. Audio output is attenuated and filtered.
