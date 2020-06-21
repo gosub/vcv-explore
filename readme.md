@@ -23,3 +23,7 @@ A slow square lfo scans the wavetable in macro oscillator and triggers the s&h t
 ## a minor arraign - 2020-06-15
 
 Glitch producing patch. LFO, ADDR-SEQ and FM-OP are the sound source, a simple 4 notes sequence. Audio input for DELAY is alternatingly switched between audio and feedback, full wet and with no internal feedback. The same clock changes the delay time with a S&H. Audio output is attenuated and filtered.
+
+## overmorrow - 2020-06-21
+
+A generative fm drum patch. Bleak is the modulator, VCO-3340 is the carrier. the drum pattern in programmed with NYSTHI dual five step. Every 32 clock ticks, the oscillators and the modulator envelope are randomized with stoermelder STRIP.
