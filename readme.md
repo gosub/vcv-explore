@@ -27,3 +27,7 @@ Glitch producing patch. LFO, ADDR-SEQ and FM-OP are the sound source, a simple 4
 ## overmorrow - 2020-06-21
 
 A generative fm drum patch. Bleak is the modulator, VCO-3340 is the carrier. the drum pattern in programmed with NYSTHI dual five step. Every 32 clock ticks, the oscillators and the modulator envelope are randomized with stoermelder STRIP.
+
+## gorgon bimester - 2020-06-28
+
+A very basic four voice drum machine.
