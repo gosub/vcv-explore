@@ -1,0 +1,328 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 18,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "VultModulesFree",
+      "version": "1.10.1",
+      "model": "Stabile",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.35000002
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 13,
+      "rightModuleId": 14,
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "Befaco",
+      "version": "1.0.1",
+      "model": "Rampage",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.141000018
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.716999769
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 18,
+      "rightModuleId": 12,
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 14,
+      "plugin": "Bogaudio",
+      "version": "1.1.31",
+      "model": "Bogaudio-SampleHold",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 12,
+      "rightModuleId": 15,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 0.0,
+        "range_scale": 5.0
+      },
+      "pos": [
+        44,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "DelayPlusFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.589999855
+        },
+        {
+          "id": 1,
+          "value": 0.752000213
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.74000001
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 14,
+      "rightModuleId": 24,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        47,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "ReverbStereoFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.639500201
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 13,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 24,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 15,
+      "text": "echistica - 2020-06-29\n\nRampage is used as a pulse generator. The pulse is bandpassed to band-limit the signal, then delay and reverb are applied. A dual S&H randomizes the filter frequency and the pulse fall time. The sound of human settlement.",
+      "pos": [
+        55,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 4,
+      "outputModuleId": 13,
+      "outputId": 4,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 14,
+      "outputId": 1,
+      "inputModuleId": 13,
+      "inputId": 6,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 13,
+      "outputId": 6,
+      "inputModuleId": 15,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 8,
+      "outputModuleId": 15,
+      "outputId": 1,
+      "inputModuleId": 12,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 26,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 18,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 20,
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 33,
+      "outputModuleId": 18,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    }
+  ]
+}
