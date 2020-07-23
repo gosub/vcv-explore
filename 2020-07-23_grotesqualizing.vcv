@@ -1,0 +1,273 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 5,
+      "rightModuleId": 8,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "Bidoo",
+      "version": "1.1.22",
+      "model": "BAFIS",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.083810389
+        },
+        {
+          "id": 1,
+          "value": 0.066801846
+        },
+        {
+          "id": 2,
+          "value": 0.444381237
+        },
+        {
+          "id": 3,
+          "value": 0.402274102
+        },
+        {
+          "id": 4,
+          "value": 0.189125299
+        },
+        {
+          "id": 5,
+          "value": 0.891590774
+        },
+        {
+          "id": 6,
+          "value": 0.1444529
+        },
+        {
+          "id": 7,
+          "value": 9.45500565
+        },
+        {
+          "id": 8,
+          "value": 6.79414606
+        },
+        {
+          "id": 9,
+          "value": 6.20340252
+        },
+        {
+          "id": 10,
+          "value": 1.24285471
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 2.0
+        },
+        {
+          "id": 14,
+          "value": 2.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 1.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0988662243
+        },
+        {
+          "id": 20,
+          "value": 0.361355245
+        },
+        {
+          "id": 21,
+          "value": 0.650715232
+        },
+        {
+          "id": 22,
+          "value": 0.60231936
+        }
+      ],
+      "leftModuleId": 7,
+      "rightModuleId": 5,
+      "pos": [
+        5,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "NYSTHI",
+      "version": "1.0.13",
+      "model": "HiVerb",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.742479503
+        },
+        {
+          "id": 1,
+          "value": 0.789887011
+        },
+        {
+          "id": 2,
+          "value": 0.453335166
+        },
+        {
+          "id": 3,
+          "value": 0.432352901
+        },
+        {
+          "id": 4,
+          "value": 0.286854625
+        },
+        {
+          "id": 5,
+          "value": 0.495999873
+        },
+        {
+          "id": 6,
+          "value": 0.16585964
+        },
+        {
+          "id": 7,
+          "value": 0.316508651
+        },
+        {
+          "id": 8,
+          "value": 0.315556794
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 4,
+      "rightModuleId": 1,
+      "pos": [
+        15,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "mscHack",
+      "version": "1.0.2",
+      "model": "Dronez",
+      "params": [
+        {
+          "id": 0,
+          "value": 4.0
+        }
+      ],
+      "rightModuleId": 4,
+      "data": {
+        "m_Seed": [
+          1191065212
+        ]
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 8,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 1,
+      "text": "grotesqualizing - 2020-07-23\n\nSelf-modifying drone. Click the random button on the MSCHack Dronez to change the monster voice.",
+      "pos": [
+        31,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 2,
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 3,
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 5,
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 6,
+      "outputModuleId": 5,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 7,
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 8,
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 0,
+      "color": "#0c8e15"
+    }
+  ]
+}

@@ -35,3 +35,7 @@ A very basic four voice drum machine.
 ## echistica - 2020-06-29
 
 Rampage is used as a pulse generator. The pulse is bandpassed to band-limit the signal, then delay and reverb are applied. A dual S&H randomizes the filter frequency and the pulse fall time. The sound of human settlement.
+
+## grotesqualizing - 2020-07-23
+
+Self-modifying drone. Click the random button on the MSCHack Dronez to change the monster voice.
