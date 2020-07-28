@@ -39,3 +39,7 @@ Rampage is used as a pulse generator. The pulse is bandpassed to band-limit the 
 ## grotesqualizing - 2020-07-23
 
 Self-modifying drone. Click the random button on the MSCHack Dronez to change the monster voice.
+
+## grammatica 001 - 2020-07-28
+
+Single sequence played over with different clocks, thanks to polyphonic cables.
