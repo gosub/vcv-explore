@@ -1,0 +1,434 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 5,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 4,
+      "plugin": "Bogaudio",
+      "version": "1.1.33",
+      "model": "Bogaudio-Pulse",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.00300000003
+        }
+      ],
+      "leftModuleId": 6,
+      "rightModuleId": 7,
+      "data": {
+        "poly_input": 0,
+        "linear_mode": false
+      },
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 5,
+      "plugin": "Stoermelder-P1",
+      "version": "1.6.3",
+      "model": "Affix",
+      "params": [
+        {
+          "id": 0,
+          "value": -4.76520538
+        },
+        {
+          "id": 1,
+          "value": -3.09742165
+        },
+        {
+          "id": 2,
+          "value": -1.6669929
+        },
+        {
+          "id": 3,
+          "value": -0.744162083
+        },
+        {
+          "id": 4,
+          "value": 0.8644104
+        },
+        {
+          "id": 5,
+          "value": 0.547554493
+        },
+        {
+          "id": 6,
+          "value": 0.322634697
+        },
+        {
+          "id": 7,
+          "value": -4.0097146
+        },
+        {
+          "id": 8,
+          "value": 2.4653244
+        },
+        {
+          "id": 9,
+          "value": -3.40022922
+        },
+        {
+          "id": 10,
+          "value": 0.933342457
+        },
+        {
+          "id": 11,
+          "value": 2.91368055
+        },
+        {
+          "id": 12,
+          "value": -4.72654915
+        },
+        {
+          "id": 13,
+          "value": 1.91112804
+        },
+        {
+          "id": 14,
+          "value": 1.70693874
+        },
+        {
+          "id": 15,
+          "value": -4.16883564
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 10,
+      "data": {
+        "panelTheme": 0,
+        "paramMode": 0,
+        "numberOfChannels": 8
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 6,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Sum",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.400000006
+        }
+      ],
+      "leftModuleId": 10,
+      "rightModuleId": 4,
+      "pos": [
+        19,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 4,
+      "rightModuleId": 8,
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 8,
+      "plugin": "Bogaudio",
+      "version": "1.1.33",
+      "model": "Bogaudio-Pulse",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 7,
+      "rightModuleId": 11,
+      "data": {
+        "poly_input": 0,
+        "linear_mode": false
+      },
+      "pos": [
+        28,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "Stoermelder-P1",
+      "version": "1.6.3",
+      "model": "Affix",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.0
+        },
+        {
+          "id": 1,
+          "value": 2.0
+        },
+        {
+          "id": 2,
+          "value": -3.0
+        },
+        {
+          "id": 3,
+          "value": -1.0
+        },
+        {
+          "id": 4,
+          "value": 4.0
+        },
+        {
+          "id": 5,
+          "value": 3.0
+        },
+        {
+          "id": 6,
+          "value": -4.0
+        },
+        {
+          "id": 7,
+          "value": -0.0
+        },
+        {
+          "id": 8,
+          "value": -0.0
+        },
+        {
+          "id": 9,
+          "value": -2.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": -2.0
+        },
+        {
+          "id": 12,
+          "value": 2.0
+        },
+        {
+          "id": 13,
+          "value": 2.0
+        },
+        {
+          "id": 14,
+          "value": -5.0
+        },
+        {
+          "id": 15,
+          "value": -1.0
+        }
+      ],
+      "leftModuleId": 11,
+      "rightModuleId": 18,
+      "data": {
+        "panelTheme": 0,
+        "paramMode": 2,
+        "numberOfChannels": 8
+      },
+      "pos": [
+        35,
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "plugin": "JW-Modules",
+      "version": "1.0.12",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 3.0
+        }
+      ],
+      "leftModuleId": 5,
+      "rightModuleId": 6,
+      "data": {},
+      "pos": [
+        15,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "JW-Modules",
+      "version": "1.0.12",
+      "model": "Quantizer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 12.0
+        }
+      ],
+      "leftModuleId": 8,
+      "rightModuleId": 9,
+      "data": {},
+      "pos": [
+        31,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 9,
+      "text": "grammatica 004 - 2020-08-13\n\nA study in pulse waves.",
+      "pos": [
+        40,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 1,
+      "outputModuleId": 4,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 3,
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 6,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 5,
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 7,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 0,
+      "outputModuleId": 5,
+      "outputId": 0,
+      "inputModuleId": 10,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 6,
+      "outputModuleId": 10,
+      "outputId": 0,
+      "inputModuleId": 4,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 7,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 8,
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 6,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    }
+  ]
+}

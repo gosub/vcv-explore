@@ -55,3 +55,7 @@ seeding some noise from the ground, up.
 ## grammatica 003 - 2020-08-10
 
 A high frequency arpeggio drones under a four note bass carpet.
+
+## grammatica 004 - 2020-08-13
+
+A study in pulse waves.
