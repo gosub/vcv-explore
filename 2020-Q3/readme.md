@@ -27,3 +27,7 @@ A study in pulse waves.
 ## grammatica 005 - 2020-08-14
 
 Another study in basic pulse wave modulation.
+
+## grammatica 006 - 2020-08-15
+
+Fast lick followed by bass note, ad libitum.
