@@ -1,0 +1,420 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 8,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 3,
+      "plugin": "CountModula",
+      "version": "1.11.0",
+      "model": "BinarySequencer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 2.29999995
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 12,
+      "rightModuleId": 13,
+      "data": {
+        "moduleVersion": 5,
+        "currentStep": 129,
+        "clockState": false,
+        "runState": true,
+        "clockPhase": 0.972542346,
+        "theme": 0
+      },
+      "pos": [
+        53,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "CountModula",
+      "version": "1.11.0",
+      "model": "BusRoute2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 8,
+      "rightModuleId": 9,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        13,
+        0
+      ]
+    },
+    {
+      "id": 8,
+      "plugin": "EricaCopies",
+      "version": "1.0.4",
+      "model": "PicoDrums",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.72773999
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 7,
+      "data": {
+        "mode": 0,
+        "pitch_value1": 4.13333321,
+        "pitch_value2": 10.0,
+        "sample_value1": 0.216666222,
+        "sample_value2": 0.75,
+        "last_sample_value1": -9.78333378,
+        "last_sample_value2": -9.25,
+        "volume_value1": 1.17846751,
+        "volume_value2": 1.25,
+        "decay_value1": 0.100000001,
+        "decay_value2": 0.100000001,
+        "last_decay_value1": -0.0,
+        "last_decay_value2": 0.0,
+        "CVparam": 0
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "CountModula",
+      "version": "1.11.0",
+      "model": "VCPulseDivider",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 5.0
+        }
+      ],
+      "leftModuleId": 7,
+      "rightModuleId": 10,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "plugin": "CountModula",
+      "version": "1.11.0",
+      "model": "VCPulseDivider",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 7.0
+        }
+      ],
+      "leftModuleId": 9,
+      "rightModuleId": 11,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        29,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "CountModula",
+      "version": "1.11.0",
+      "model": "VCPulseDivider",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 4.0
+        }
+      ],
+      "leftModuleId": 10,
+      "rightModuleId": 12,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        37,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "CountModula",
+      "version": "1.11.0",
+      "model": "VCPulseDivider",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 3.0
+        }
+      ],
+      "leftModuleId": 11,
+      "rightModuleId": 3,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 3,
+      "text": "grammatica 007 - 2020-08-16\n\nRecreation of the trig sequencer from the Moog Subharmonicon.",
+      "pos": [
+        65,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 8,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 9,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 10,
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 9,
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 11,
+      "outputModuleId": 10,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 11,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 7,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 14,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 10,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 11,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 3,
+      "outputId": 3,
+      "inputModuleId": 12,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 7,
+      "outputId": 0,
+      "inputModuleId": 8,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 7,
+      "outputId": 1,
+      "inputModuleId": 8,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 19,
+      "outputModuleId": 8,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    }
+  ]
+}

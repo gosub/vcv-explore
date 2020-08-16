@@ -31,3 +31,7 @@ Another study in basic pulse wave modulation.
 ## grammatica 006 - 2020-08-15
 
 Fast lick followed by bass note, ad libitum.
+
+## grammatica 007 - 2020-08-16
+
+Recreation of the trig sequencer from the Moog Subharmonicon.
