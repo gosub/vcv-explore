@@ -24,74 +24,9 @@
       ]
     },
     {
-      "id": 4,
-      "plugin": "Befaco",
-      "version": "1.0.1",
-      "model": "Rampage",
-      "params": [
-        {
-          "id": 0,
-          "value": 0.0
-        },
-        {
-          "id": 1,
-          "value": 0.0
-        },
-        {
-          "id": 2,
-          "value": 0.534000039
-        },
-        {
-          "id": 3,
-          "value": 0.366000056
-        },
-        {
-          "id": 4,
-          "value": 0.0
-        },
-        {
-          "id": 5,
-          "value": 0.0
-        },
-        {
-          "id": 6,
-          "value": 0.0
-        },
-        {
-          "id": 7,
-          "value": 0.0
-        },
-        {
-          "id": 8,
-          "value": 0.453000039
-        },
-        {
-          "id": 9,
-          "value": 0.435000002
-        },
-        {
-          "id": 10,
-          "value": 0.0
-        },
-        {
-          "id": 11,
-          "value": 0.0
-        },
-        {
-          "id": 12,
-          "value": 0.5
-        }
-      ],
-      "leftModuleId": 7,
-      "pos": [
-        41,
-        0
-      ]
-    },
-    {
       "id": 5,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -154,42 +89,20 @@
         },
         {
           "id": 5,
-          "value": 0.125
+          "value": 0.225499988
         }
       ],
       "leftModuleId": 14,
-      "rightModuleId": 7,
+      "rightModuleId": 15,
       "pos": [
         20,
         0
       ]
     },
     {
-      "id": 7,
-      "plugin": "Fundamental",
-      "version": "1.4.0",
-      "model": "VCA-1",
-      "params": [
-        {
-          "id": 0,
-          "value": 1.0
-        },
-        {
-          "id": 1,
-          "value": 1.0
-        }
-      ],
-      "leftModuleId": 6,
-      "rightModuleId": 4,
-      "pos": [
-        38,
-        0
-      ]
-    },
-    {
       "id": 8,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -227,7 +140,7 @@
     {
       "id": 9,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -264,7 +177,7 @@
     {
       "id": 10,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -302,7 +215,7 @@
     {
       "id": 11,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -340,7 +253,7 @@
     {
       "id": 12,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Basal",
       "params": [
         {
@@ -407,7 +320,7 @@
     {
       "id": 14,
       "plugin": "VultModulesFree",
-      "version": "1.10.1",
+      "version": "1.11",
       "model": "Debriatus",
       "params": [
         {
@@ -449,25 +362,82 @@
         10,
         0
       ]
+    },
+    {
+      "id": 15,
+      "plugin": "VultModulesFree",
+      "version": "1.11",
+      "model": "Slap",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0269999988
+        },
+        {
+          "id": 1,
+          "value": 0.498000145
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.421499997
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 6,
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "TriggersMKIII",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "label1": "TRIG",
+        "label2": ""
+      },
+      "pos": [
+        49,
+        0
+      ]
     }
   ],
   "cables": [
-    {
-      "id": 0,
-      "outputModuleId": 6,
-      "outputId": 8,
-      "inputModuleId": 7,
-      "inputId": 1,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 1,
-      "outputModuleId": 4,
-      "outputId": 6,
-      "inputModuleId": 7,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
     {
       "id": 3,
       "outputModuleId": 5,
@@ -514,14 +484,6 @@
       "outputId": 0,
       "inputModuleId": 6,
       "inputId": 5,
-      "color": "#c9b70e"
-    },
-    {
-      "id": 16,
-      "outputModuleId": 4,
-      "outputId": 0,
-      "inputModuleId": 4,
-      "inputId": 3,
       "color": "#c9b70e"
     },
     {
@@ -573,22 +535,6 @@
       "color": "#c91847"
     },
     {
-      "id": 17,
-      "outputModuleId": 4,
-      "outputId": 7,
-      "inputModuleId": 13,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
-      "id": 9,
-      "outputModuleId": 7,
-      "outputId": 0,
-      "inputModuleId": 14,
-      "inputId": 0,
-      "color": "#0c8e15"
-    },
-    {
       "id": 18,
       "outputModuleId": 14,
       "outputId": 0,
@@ -603,6 +549,30 @@
       "inputModuleId": 1,
       "inputId": 1,
       "color": "#0986ad"
+    },
+    {
+      "id": 20,
+      "outputModuleId": 6,
+      "outputId": 8,
+      "inputModuleId": 15,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 0,
+      "color": "#0c8e15"
     }
   ]
 }
