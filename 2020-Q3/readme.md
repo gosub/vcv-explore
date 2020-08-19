@@ -35,3 +35,7 @@ Fast lick followed by bass note, ad libitum.
 ## grammatica 007 - 2020-08-16
 
 Recreation of the trig sequencer from the Moog Subharmonicon.
+
+## grammatica 008 - 2020-08-18
+
+Prototype for a drum patch, very loosely inspired by BIA.
