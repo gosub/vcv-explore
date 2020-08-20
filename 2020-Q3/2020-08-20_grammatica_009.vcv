@@ -1,0 +1,393 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 33,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "plugin": "voxglitch",
+      "version": "1.18.0",
+      "model": "repeater",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.160500005
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.214499861
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.00449999608
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": -0.300000012
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 32,
+      "rightModuleId": 29,
+      "data": {
+        "loaded_sample_path_1": "/home/gg/downloads/audio/samples/si_con_riso_senza_lattosio-i_biscotti-aEFPu2B5L60.wav",
+        "loaded_sample_path_2": "",
+        "loaded_sample_path_3": "",
+        "loaded_sample_path_4": "",
+        "loaded_sample_path_5": "",
+        "retrigger": 1835103010
+      },
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 29,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 4.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 28,
+      "rightModuleId": 34,
+      "data": {},
+      "pos": [
+        62,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "plugin": "voxglitch",
+      "version": "1.18.0",
+      "model": "ghosts",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.200000003
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.200000003
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        },
+        {
+          "id": 8,
+          "value": -0.300000012
+        },
+        {
+          "id": 9,
+          "value": 1.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 1.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 33,
+      "rightModuleId": 31,
+      "data": {
+        "path": "/home/gg/downloads/audio/samples/si_con_riso_senza_lattosio-i_biscotti-aEFPu2B5L60.wav"
+      },
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 31,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-SampleHold",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 30,
+      "rightModuleId": 32,
+      "data": {
+        "poly_input": 0,
+        "noise_type": 0,
+        "range_offset": 1.0,
+        "range_scale": 5.0
+      },
+      "pos": [
+        37,
+        0
+      ]
+    },
+    {
+      "id": 32,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-RGate",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.333333343
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 31,
+      "rightModuleId": 28,
+      "data": {
+        "reset_mode": 0,
+        "initial_clock_seconds": 0.5,
+        "poly_input": 4
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 33,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 30,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 29,
+      "text": "grammatica 009 - 2020-08-20\n\nThe only sound source is a wave file, mangled with Ghosts and Repeater. The result is a pastiche/parody of music concrete. The original sound file can be retrieved with:\n\nyoutube-dl -x --audio-format wav --audio-quality 0 \"aEFPu2B5L60\"",
+      "pos": [
+        65,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 38,
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 28,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 41,
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 5,
+      "color": "#c91847"
+    },
+    {
+      "id": 42,
+      "outputModuleId": 28,
+      "outputId": 1,
+      "inputModuleId": 31,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 28,
+      "outputId": 1,
+      "inputModuleId": 32,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 44,
+      "outputModuleId": 32,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 45,
+      "outputModuleId": 31,
+      "outputId": 1,
+      "inputModuleId": 28,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 40,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 33,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 37,
+      "outputModuleId": 28,
+      "outputId": 0,
+      "inputModuleId": 33,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 46,
+      "outputModuleId": 33,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 47,
+      "outputModuleId": 33,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c9b70e"
+    }
+  ]
+}

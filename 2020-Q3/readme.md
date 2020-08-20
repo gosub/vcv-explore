@@ -39,3 +39,12 @@ Recreation of the trig sequencer from the Moog Subharmonicon.
 ## grammatica 008 - 2020-08-18
 
 Prototype for a drum patch, very loosely inspired by BIA.
+
+## grammatica 009 - 2020-08-20
+
+The only sound source is a wave file, mangled with Ghosts and Repeater. The result is a pastiche/parody of music concrete.
+The original sound file can be retrieved with:
+
+```
+youtube-dl -x --audio-format wav --audio-quality 0 "aEFPu2B5L60"
+```
