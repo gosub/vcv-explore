@@ -52,3 +52,7 @@ youtube-dl -x --audio-format wav --audio-quality 0 "aEFPu2B5L60"
 ## grammatica 010 - 2020-08-21
 
 Topograph for once is used for sequencing a melody, not drums! And the melody is pure gameboy nostalgia.
+
+## grammatica 011 - 2020-08-25
+
+A study in minimal noise.
