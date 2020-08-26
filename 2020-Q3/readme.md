@@ -56,3 +56,7 @@ Topograph for once is used for sequencing a melody, not drums! And the melody is
 ## grammatica 011 - 2020-08-25
 
 A study in minimal noise.
+
+## grammatica 012 - 2020-08-26
+
+A distorted electric guitar sound obtained distorting an organ source and FX.

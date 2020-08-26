@@ -1,0 +1,614 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 21,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.11",
+      "model": "squinkylabs-sines",
+      "params": [
+        {
+          "id": 0,
+          "value": 3.13846731
+        },
+        {
+          "id": 1,
+          "value": 4.85515928
+        },
+        {
+          "id": 2,
+          "value": 6.76944971
+        },
+        {
+          "id": 3,
+          "value": 4.46576118
+        },
+        {
+          "id": 4,
+          "value": 1.25818825
+        },
+        {
+          "id": 5,
+          "value": 0.861814022
+        },
+        {
+          "id": 6,
+          "value": 3.09817791
+        },
+        {
+          "id": 7,
+          "value": 2.01496029
+        },
+        {
+          "id": 8,
+          "value": 2.91556263
+        },
+        {
+          "id": 9,
+          "value": 3.59288931
+        },
+        {
+          "id": 10,
+          "value": 1.06864595
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 1.0
+        },
+        {
+          "id": 13,
+          "value": 42.5523872
+        },
+        {
+          "id": 14,
+          "value": 74.5940552
+        }
+      ],
+      "leftModuleId": 20,
+      "rightModuleId": 15,
+      "pos": [
+        42,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "plugin": "JW-Modules",
+      "version": "1.0.13",
+      "model": "SimpleClock",
+      "params": [
+        {
+          "id": 0,
+          "value": 2.98000169
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -2.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 13,
+      "rightModuleId": 16,
+      "data": {
+        "running": true
+      },
+      "pos": [
+        60,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "plugin": "JW-Modules",
+      "version": "1.0.13",
+      "model": "GridSeq",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.4397999
+        },
+        {
+          "id": 4,
+          "value": 0.517548323
+        },
+        {
+          "id": 5,
+          "value": 0.952707887
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 1.98251843
+        },
+        {
+          "id": 8,
+          "value": 2.92525196
+        },
+        {
+          "id": 9,
+          "value": 2.86795688
+        },
+        {
+          "id": 10,
+          "value": 0.807364464
+        },
+        {
+          "id": 11,
+          "value": 1.52440846
+        },
+        {
+          "id": 12,
+          "value": 0.985333323
+        },
+        {
+          "id": 13,
+          "value": 2.93064642
+        },
+        {
+          "id": 14,
+          "value": 1.68578017
+        },
+        {
+          "id": 15,
+          "value": 1.40363991
+        },
+        {
+          "id": 16,
+          "value": 2.57261443
+        },
+        {
+          "id": 17,
+          "value": 7.97857714
+        },
+        {
+          "id": 18,
+          "value": 9.44975471
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 0.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        },
+        {
+          "id": 27,
+          "value": 0.0
+        },
+        {
+          "id": 28,
+          "value": 0.0
+        },
+        {
+          "id": 29,
+          "value": 0.0
+        },
+        {
+          "id": 30,
+          "value": 0.0
+        },
+        {
+          "id": 31,
+          "value": 0.0
+        },
+        {
+          "id": 32,
+          "value": 0.0
+        },
+        {
+          "id": 33,
+          "value": 0.0
+        },
+        {
+          "id": 34,
+          "value": 0.0
+        },
+        {
+          "id": 35,
+          "value": 0.0
+        },
+        {
+          "id": 36,
+          "value": 0.0
+        },
+        {
+          "id": 37,
+          "value": 14.0
+        },
+        {
+          "id": 38,
+          "value": 0.0
+        },
+        {
+          "id": 39,
+          "value": 0.0
+        },
+        {
+          "id": 40,
+          "value": 0.0
+        },
+        {
+          "id": 41,
+          "value": 0.0
+        },
+        {
+          "id": 42,
+          "value": 0.0
+        },
+        {
+          "id": 43,
+          "value": 0.0
+        },
+        {
+          "id": 44,
+          "value": 0.0
+        },
+        {
+          "id": 45,
+          "value": 6.0
+        },
+        {
+          "id": 46,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 15,
+      "rightModuleId": 22,
+      "data": {
+        "running": true,
+        "ignoreGateOnPitchOut": false,
+        "gates": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "gateMode": 0
+      },
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "id": 19,
+      "plugin": "AlrightDevices",
+      "version": "1.0.3",
+      "model": "Chronoblob2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.270499915
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0480000079
+        },
+        {
+          "id": 4,
+          "value": 0.213000029
+        },
+        {
+          "id": 5,
+          "value": -0.269999981
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 21,
+      "rightModuleId": 20,
+      "data": {
+        "delay_mode": 0,
+        "hold_behavior": 0,
+        "sync_prescaler": 6
+      },
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 20,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "SuperDriveStereoFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.363000005
+        },
+        {
+          "id": 1,
+          "value": 0.609500051
+        },
+        {
+          "id": 2,
+          "value": 0.218000025
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 19,
+      "rightModuleId": 13,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        36,
+        0
+      ]
+    },
+    {
+      "id": 21,
+      "plugin": "Blamsoft-XFXReverb",
+      "version": "1.0.0",
+      "model": "Blamsoft-XFXReverb",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.400000006
+        },
+        {
+          "id": 2,
+          "value": 0.400000006
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.25
+        },
+        {
+          "id": 6,
+          "value": 0.25
+        },
+        {
+          "id": 7,
+          "value": 0.5
+        },
+        {
+          "id": 8,
+          "value": 0.25
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 19,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 22,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 16,
+      "text": "grammatica 012 - 2020-08-26\n\nA distorted electric guitar sound obtained distorting an organ source and FX.",
+      "pos": [
+        84,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 15,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 16,
+      "outputId": 1,
+      "inputModuleId": 13,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 24,
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 20,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 19,
+      "outputId": 1,
+      "inputModuleId": 20,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 19,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 26,
+      "outputModuleId": 20,
+      "outputId": 0,
+      "inputModuleId": 21,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 27,
+      "outputModuleId": 20,
+      "outputId": 1,
+      "inputModuleId": 21,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 29,
+      "outputModuleId": 21,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 30,
+      "outputModuleId": 21,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 31,
+      "outputModuleId": 15,
+      "outputId": 5,
+      "inputModuleId": 16,
+      "inputId": 5,
+      "color": "#c91847"
+    }
+  ]
+}
