@@ -60,3 +60,7 @@ A study in minimal noise.
 ## grammatica 012 - 2020-08-26
 
 A distorted electric guitar sound obtained distorting an organ source and FX.
+
+## grammatica 013 - 2020-08-27
+
+Two Rings cross-feedbacking each other are an automatic sound effect generator.

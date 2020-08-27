@@ -1,0 +1,435 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 29,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 23,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Rings",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 55.8851166
+        },
+        {
+          "id": 3,
+          "value": 0.546535432
+        },
+        {
+          "id": 4,
+          "value": 0.345671177
+        },
+        {
+          "id": 5,
+          "value": 0.38337779
+        },
+        {
+          "id": 6,
+          "value": 0.98895359
+        },
+        {
+          "id": 7,
+          "value": 0.0802106857
+        },
+        {
+          "id": 8,
+          "value": 0.829891562
+        },
+        {
+          "id": 9,
+          "value": 0.0546559095
+        },
+        {
+          "id": 10,
+          "value": -0.248228788
+        },
+        {
+          "id": 11,
+          "value": 0.471665502
+        }
+      ],
+      "rightModuleId": 30,
+      "data": {
+        "polyphony": 0,
+        "model": 0,
+        "easterEgg": false
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 24,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Rings",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 42.9971886
+        },
+        {
+          "id": 3,
+          "value": 0.162447929
+        },
+        {
+          "id": 4,
+          "value": 0.014146924
+        },
+        {
+          "id": 5,
+          "value": 0.501532018
+        },
+        {
+          "id": 6,
+          "value": 0.708507478
+        },
+        {
+          "id": 7,
+          "value": -0.787468433
+        },
+        {
+          "id": 8,
+          "value": -0.878913403
+        },
+        {
+          "id": 9,
+          "value": -0.368819237
+        },
+        {
+          "id": 10,
+          "value": -0.718902826
+        },
+        {
+          "id": 11,
+          "value": 0.179317713
+        }
+      ],
+      "leftModuleId": 30,
+      "data": {
+        "polyphony": 2,
+        "model": 1,
+        "easterEgg": false
+      },
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 25,
+      "plugin": "CountModula",
+      "version": "1.12.0",
+      "model": "MatrixMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.703999996
+        },
+        {
+          "id": 1,
+          "value": 0.709999919
+        },
+        {
+          "id": 2,
+          "value": 0.702500045
+        },
+        {
+          "id": 3,
+          "value": 0.73999995
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.700500011
+        },
+        {
+          "id": 6,
+          "value": 0.640999973
+        },
+        {
+          "id": 7,
+          "value": 0.666500032
+        },
+        {
+          "id": 8,
+          "value": 0.738500178
+        },
+        {
+          "id": 9,
+          "value": 0.665000021
+        },
+        {
+          "id": 10,
+          "value": 1.0
+        },
+        {
+          "id": 11,
+          "value": 0.647999942
+        },
+        {
+          "id": 12,
+          "value": 0.672500134
+        },
+        {
+          "id": 13,
+          "value": 0.745999932
+        },
+        {
+          "id": 14,
+          "value": 0.733999908
+        },
+        {
+          "id": 15,
+          "value": 0.5
+        },
+        {
+          "id": 16,
+          "value": 1.0
+        },
+        {
+          "id": 17,
+          "value": 0.919499993
+        },
+        {
+          "id": 18,
+          "value": 0.68900001
+        },
+        {
+          "id": 19,
+          "value": 0.76850003
+        },
+        {
+          "id": 20,
+          "value": 0.678499997
+        },
+        {
+          "id": 21,
+          "value": 0.5
+        },
+        {
+          "id": 22,
+          "value": 1.0
+        },
+        {
+          "id": 23,
+          "value": 0.93900013
+        }
+      ],
+      "rightModuleId": 31,
+      "data": {
+        "moduleVersion": 1,
+        "theme": 0
+      },
+      "pos": [
+        7,
+        1
+      ]
+    },
+    {
+      "id": 29,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Noise",
+      "params": [],
+      "leftModuleId": 1,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "plugin": "Stoermelder-P1",
+      "version": "1.7.0",
+      "model": "Strip",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 23,
+      "rightModuleId": 24,
+      "data": {
+        "panelTheme": 0,
+        "mode": 0,
+        "onMode": 0,
+        "excludedParams": [],
+        "randomExcl": 1,
+        "randomParamsOnly": false
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 31,
+      "plugin": "HetrickCV",
+      "version": "1.0.0",
+      "model": "Dust",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.100000001
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 25,
+      "rightModuleId": 32,
+      "pos": [
+        28,
+        1
+      ]
+    },
+    {
+      "id": 32,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 31,
+      "text": "grammatica 013 - 2020-08-27 \n\n\nTwo Rings cross-feedbacking each other are an automatic sound effect generator. ",
+      "pos": [
+        34,
+        1
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 32,
+      "outputModuleId": 25,
+      "outputId": 0,
+      "inputModuleId": 24,
+      "inputId": 7,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 34,
+      "outputModuleId": 25,
+      "outputId": 2,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 35,
+      "outputModuleId": 25,
+      "outputId": 3,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 36,
+      "outputModuleId": 23,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 37,
+      "outputModuleId": 23,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 24,
+      "outputId": 0,
+      "inputModuleId": 25,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 42,
+      "outputModuleId": 25,
+      "outputId": 1,
+      "inputModuleId": 23,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 48,
+      "outputModuleId": 29,
+      "outputId": 1,
+      "inputModuleId": 25,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 49,
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 2,
+      "color": "#c91847"
+    }
+  ]
+}
