@@ -1,0 +1,455 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 80,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 35,
+      "plugin": "ChowDSP",
+      "version": "1.2.0",
+      "model": "ChowTape",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.639500022
+        },
+        {
+          "id": 1,
+          "value": 0.638000011
+        },
+        {
+          "id": 2,
+          "value": 0.636500001
+        }
+      ],
+      "leftModuleId": 41,
+      "rightModuleId": 75,
+      "pos": [
+        39,
+        0
+      ]
+    },
+    {
+      "id": 40,
+      "plugin": "ChowDSP",
+      "version": "1.2.0",
+      "model": "ChowModal",
+      "params": [
+        {
+          "id": 0,
+          "value": -16.631979
+        },
+        {
+          "id": 1,
+          "value": 0.437000006
+        },
+        {
+          "id": 2,
+          "value": 0.426999986
+        },
+        {
+          "id": 3,
+          "value": 0.229499996
+        }
+      ],
+      "leftModuleId": 79,
+      "rightModuleId": 41,
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "plugin": "ChowDSP",
+      "version": "1.2.0",
+      "model": "ChowDer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.63500005
+        },
+        {
+          "id": 1,
+          "value": 0.640999854
+        },
+        {
+          "id": 2,
+          "value": 0.663499773
+        },
+        {
+          "id": 3,
+          "value": 0.411000013
+        }
+      ],
+      "leftModuleId": 40,
+      "rightModuleId": 35,
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 75,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.12",
+      "model": "squinkylabs-ev3",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.207000002
+        },
+        {
+          "id": 1,
+          "value": 0.280499965
+        },
+        {
+          "id": 2,
+          "value": 0.339000016
+        },
+        {
+          "id": 3,
+          "value": -1.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 0.0
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": -2.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        },
+        {
+          "id": 21,
+          "value": 0.0
+        },
+        {
+          "id": 22,
+          "value": 0.0
+        },
+        {
+          "id": 23,
+          "value": 0.0
+        },
+        {
+          "id": 24,
+          "value": 3.0
+        },
+        {
+          "id": 25,
+          "value": 0.0
+        },
+        {
+          "id": 26,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 35,
+      "rightModuleId": 81,
+      "pos": [
+        45,
+        0
+      ]
+    },
+    {
+      "id": 76,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.93049979
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 5.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.664000094
+        }
+      ],
+      "leftModuleId": 77,
+      "rightModuleId": 79,
+      "data": {},
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 77,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.43199968
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.106000043
+        }
+      ],
+      "leftModuleId": 80,
+      "rightModuleId": 76,
+      "data": {},
+      "pos": [
+        15,
+        0
+      ]
+    },
+    {
+      "id": 79,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Links",
+      "params": [],
+      "leftModuleId": 76,
+      "rightModuleId": 40,
+      "pos": [
+        21,
+        0
+      ]
+    },
+    {
+      "id": 80,
+      "plugin": "Bidoo",
+      "version": "1.1.22",
+      "model": "mINIBar",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 7.84000206
+        },
+        {
+          "id": 2,
+          "value": 10.0
+        },
+        {
+          "id": 3,
+          "value": 10.0
+        },
+        {
+          "id": 4,
+          "value": 6.0
+        },
+        {
+          "id": 5,
+          "value": 6.93000317
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 77,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 81,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 75,
+      "text": "grammatica 014 - 2020-09-09\n\nA study of ChowDSP effects. Two LFOs for rhythm and variation.",
+      "pos": [
+        63,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 60,
+      "outputModuleId": 40,
+      "outputId": 0,
+      "inputModuleId": 41,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 57,
+      "outputModuleId": 75,
+      "outputId": 0,
+      "inputModuleId": 35,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 61,
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 40,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 62,
+      "outputModuleId": 76,
+      "outputId": 0,
+      "inputModuleId": 79,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 64,
+      "outputModuleId": 79,
+      "outputId": 5,
+      "inputModuleId": 40,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 65,
+      "outputModuleId": 77,
+      "outputId": 0,
+      "inputModuleId": 79,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 59,
+      "outputModuleId": 41,
+      "outputId": 0,
+      "inputModuleId": 80,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 66,
+      "outputModuleId": 80,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 67,
+      "outputModuleId": 80,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}
