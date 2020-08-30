@@ -64,3 +64,7 @@ A distorted electric guitar sound obtained distorting an organ source and FX.
 ## grammatica 013 - 2020-08-27
 
 Two Rings cross-feedbacking each other are an automatic sound effect generator.
+
+## grammatica 014 - 2020-09-09
+
+A study of ChowDSP effects. Two LFOs for rhythm and variation.
