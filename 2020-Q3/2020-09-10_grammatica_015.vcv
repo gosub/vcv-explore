@@ -1,0 +1,351 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 95,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 91,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -1.99600065
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.162499964
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.113999985
+        }
+      ],
+      "leftModuleId": 90,
+      "rightModuleId": 92,
+      "data": {
+        "settings": [
+          5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        28,
+        0
+      ]
+    },
+    {
+      "id": 92,
+      "plugin": "HetrickCV",
+      "version": "1.0.0",
+      "model": "Dust",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0779999942
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 91,
+      "rightModuleId": 97,
+      "pos": [
+        44,
+        0
+      ]
+    },
+    {
+      "id": 90,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-AddrSeq",
+      "params": [
+        {
+          "id": 0,
+          "value": 4.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": -0.384788513
+        },
+        {
+          "id": 4,
+          "value": 0.570717216
+        },
+        {
+          "id": 5,
+          "value": -0.395532489
+        },
+        {
+          "id": 6,
+          "value": -0.892513871
+        },
+        {
+          "id": 7,
+          "value": 0.902299643
+        },
+        {
+          "id": 8,
+          "value": 5.45978546e-5
+        },
+        {
+          "id": 9,
+          "value": -0.871946335
+        },
+        {
+          "id": 10,
+          "value": -0.599749327
+        }
+      ],
+      "leftModuleId": 96,
+      "rightModuleId": 91,
+      "data": {
+        "poly_input": 0,
+        "select_on_clock": false,
+        "triggered_select": false,
+        "reverse_on_negative_clock": false,
+        "range_offset": 0.0,
+        "range_scale": 1.0
+      },
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 95,
+      "plugin": "MSM",
+      "version": "1.0.0",
+      "model": "Phaser",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.200000003
+        },
+        {
+          "id": 1,
+          "value": 0.400000006
+        },
+        {
+          "id": 2,
+          "value": 10.0
+        },
+        {
+          "id": 3,
+          "value": 0.182000011
+        },
+        {
+          "id": 4,
+          "value": 0.474999994
+        },
+        {
+          "id": 5,
+          "value": 0.867500067
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.35800007
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 96,
+      "data": {
+        "Theme": 0
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 96,
+      "plugin": "MSM",
+      "version": "1.0.0",
+      "model": "Phaser",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.200000003
+        },
+        {
+          "id": 1,
+          "value": 0.400000006
+        },
+        {
+          "id": 2,
+          "value": 17.0
+        },
+        {
+          "id": 3,
+          "value": 0.118999958
+        },
+        {
+          "id": 4,
+          "value": 0.474999994
+        },
+        {
+          "id": 5,
+          "value": 0.870500028
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.344499975
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 95,
+      "rightModuleId": 90,
+      "data": {
+        "Theme": 0
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 97,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 92,
+      "text": "grammatica 015 - 2020-09-10\n\nExperimenting with the rhythms generated by two phaser not synced. The source is a macro oscillator sequenced by an irregular clock.",
+      "pos": [
+        50,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 71,
+      "outputModuleId": 92,
+      "outputId": 0,
+      "inputModuleId": 90,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 76,
+      "outputModuleId": 91,
+      "outputId": 0,
+      "inputModuleId": 95,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 72,
+      "outputModuleId": 90,
+      "outputId": 0,
+      "inputModuleId": 91,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 77,
+      "outputModuleId": 96,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 79,
+      "outputModuleId": 96,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 78,
+      "outputModuleId": 95,
+      "outputId": 0,
+      "inputModuleId": 96,
+      "inputId": 3,
+      "color": "#0c8e15"
+    }
+  ]
+}
