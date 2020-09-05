@@ -1,0 +1,389 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 138,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 132,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -1.84000063
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0870000944
+        }
+      ],
+      "leftModuleId": 134,
+      "rightModuleId": 133,
+      "data": {
+        "settings": [
+          4,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 133,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Rings",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 31.8000412
+        },
+        {
+          "id": 3,
+          "value": 0.662000358
+        },
+        {
+          "id": 4,
+          "value": 0.16550003
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.5
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.333000004
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 132,
+      "rightModuleId": 139,
+      "data": {
+        "polyphony": 1,
+        "model": 1,
+        "easterEgg": false
+      },
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 134,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 136,
+      "rightModuleId": 132,
+      "pos": [
+        19,
+        0
+      ]
+    },
+    {
+      "id": 136,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.89149904
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.337000102
+        }
+      ],
+      "leftModuleId": 137,
+      "rightModuleId": 134,
+      "data": {},
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 137,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 138,
+      "rightModuleId": 136,
+      "pos": [
+        13,
+        0
+      ]
+    },
+    {
+      "id": 138,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -2.47649956
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.335500151
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 137,
+      "data": {},
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 139,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.74399948
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 133,
+      "rightModuleId": 140,
+      "data": {},
+      "pos": [
+        52,
+        0
+      ]
+    },
+    {
+      "id": 140,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 139,
+      "text": "grammatica 017 - 2020-09-13\n\nengagement, day one. braids+rings.",
+      "pos": [
+        55,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 23,
+      "outputModuleId": 132,
+      "outputId": 0,
+      "inputModuleId": 133,
+      "inputId": 7,
+      "color": "#0986ad"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 133,
+      "outputId": 1,
+      "inputModuleId": 134,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 29,
+      "outputModuleId": 136,
+      "outputId": 0,
+      "inputModuleId": 134,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 32,
+      "outputModuleId": 138,
+      "outputId": 0,
+      "inputModuleId": 137,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 134,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 33,
+      "outputModuleId": 137,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 34,
+      "outputModuleId": 133,
+      "outputId": 0,
+      "inputModuleId": 137,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 35,
+      "outputModuleId": 139,
+      "outputId": 0,
+      "inputModuleId": 133,
+      "inputId": 3,
+      "color": "#0986ad"
+    }
+  ]
+}
