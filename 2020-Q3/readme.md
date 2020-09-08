@@ -80,3 +80,7 @@ Another experiment in sound design. The parameters of one Additator and three Pl
 ## grammatica 017 - 2020-09-13
 
 engagement, day one. braids+rings.
+
+## grammatica 018 - 2020-09-14
+
+engagement, day two. braids+rings.
