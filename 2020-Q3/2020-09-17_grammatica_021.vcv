@@ -1,0 +1,251 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 146,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 132,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -1.04799998
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.77337116
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.74114722
+        },
+        {
+          "id": 6,
+          "value": 0.982427537
+        }
+      ],
+      "leftModuleId": 146,
+      "rightModuleId": 133,
+      "data": {
+        "settings": [
+          45,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": 133,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Rings",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 30.0
+        },
+        {
+          "id": 3,
+          "value": 0.335000038
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.5
+        },
+        {
+          "id": 7,
+          "value": -0.155999884
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.137999997
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 132,
+      "rightModuleId": 140,
+      "data": {
+        "polyphony": 2,
+        "model": 3,
+        "easterEgg": false
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 140,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 133,
+      "text": "grammatica 021 - 2020-09-17\n\nengagement, day five. braids+rings.",
+      "pos": [
+        44,
+        0
+      ]
+    },
+    {
+      "id": 146,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "Octo",
+      "params": [
+        {
+          "id": 0,
+          "value": 6.0800004
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 132,
+      "wave": 2.0,
+      "pos": [
+        10,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 36,
+      "outputModuleId": 133,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 68,
+      "outputModuleId": 133,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 76,
+      "outputModuleId": 132,
+      "outputId": 0,
+      "inputModuleId": 133,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 84,
+      "outputModuleId": 146,
+      "outputId": 3,
+      "inputModuleId": 133,
+      "inputId": 7,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 85,
+      "outputModuleId": 146,
+      "outputId": 6,
+      "inputModuleId": 133,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 89,
+      "outputModuleId": 146,
+      "outputId": 0,
+      "inputModuleId": 133,
+      "inputId": 0,
+      "color": "#c91847"
+    }
+  ]
+}
