@@ -96,3 +96,7 @@ engagement, day four. braids+rings.
 ## grammatica 021 - 2020-09-17
 
 engagement, day five. braids+rings.
+
+## grammatica 022 - 2020-09-18
+
+engagement, day six. braids+rings.
