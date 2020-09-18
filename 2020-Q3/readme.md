@@ -100,3 +100,7 @@ engagement, day five. braids+rings.
 ## grammatica 022 - 2020-09-18
 
 engagement, day six. braids+rings.
+
+## grammatica 023 - 2020-09-19
+
+engagement, day seven. braids+rings.
