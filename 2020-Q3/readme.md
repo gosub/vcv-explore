@@ -104,3 +104,7 @@ engagement, day six. braids+rings.
 ## grammatica 023 - 2020-09-19
 
 engagement, day seven. braids+rings.
+
+## grammatica 024 - 2020-09-20
+
+One E340 Cloud Generator through Rackwindows Holt filter. Spread and filter freq modulated by two BogAudio LLFO.
