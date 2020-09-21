@@ -108,3 +108,7 @@ engagement, day seven. braids+rings.
 ## grammatica 024 - 2020-09-20
 
 One E340 Cloud Generator through Rackwindows Holt filter. Spread and filter freq modulated by two BogAudio LLFO.
+
+## grammatica 025 - 2020-09-21
+
+Stuttering piano. Play with the rate knob of the delay and the metaknob.

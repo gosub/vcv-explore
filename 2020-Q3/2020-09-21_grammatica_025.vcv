@@ -1,0 +1,248 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 13,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "EssEff",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 8192.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 12,
+      "rightModuleId": 14,
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "MetaKnob",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.30499899
+        },
+        {
+          "id": 1,
+          "value": -5.0
+        },
+        {
+          "id": 2,
+          "value": 5.0
+        }
+      ],
+      "leftModuleId": 14,
+      "rightModuleId": 15,
+      "pos": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 12,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "PingPong",
+      "params": [
+        {
+          "id": 0,
+          "value": 4.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.713499963
+        }
+      ],
+      "leftModuleId": 13,
+      "rightModuleId": 9,
+      "pos": [
+        20,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "Stutter",
+      "params": [
+        {
+          "id": 0,
+          "value": 4000.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 12,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 14,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "BPM",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.10799998
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 9,
+      "rightModuleId": 11,
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 11,
+      "text": "grammatica 025 - 2020-09-21\n\nStuttering piano. Play with the rate knob of the delay and the metaknob.",
+      "pos": [
+        60,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 12,
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 14,
+      "outputModuleId": 12,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 12,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 13,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 12,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 14,
+      "outputId": 1,
+      "inputModuleId": 13,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 20,
+      "outputModuleId": 14,
+      "outputId": 2,
+      "inputModuleId": 12,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}
