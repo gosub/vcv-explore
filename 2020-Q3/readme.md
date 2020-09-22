@@ -112,3 +112,7 @@ One E340 Cloud Generator through Rackwindows Holt filter. Spread and filter freq
 ## grammatica 025 - 2020-09-21
 
 Stuttering piano. Play with the rate knob of the delay and the metaknob.
+
+## grammatica 026 - 2020-09-22
+
+One Cloud Generator frequency modulates another Cloud Generator. A stepped randomized dual filter (Vampyr) makes them sing.

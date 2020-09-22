@@ -1,0 +1,289 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 16,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "plugin": "ESeries",
+      "version": "1.0.2",
+      "model": "E340",
+      "params": [
+        {
+          "id": 0,
+          "value": -16.650034
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.427499861
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 17,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 17,
+      "plugin": "ESeries",
+      "version": "1.0.2",
+      "model": "E340",
+      "params": [
+        {
+          "id": 0,
+          "value": -4.65004158
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.502499819
+        },
+        {
+          "id": 3,
+          "value": 0.48999995
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 16,
+      "rightModuleId": 18,
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "LindenbergResearch",
+      "version": "1.3.3",
+      "model": "TYPE35_VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.491500258
+        },
+        {
+          "id": 1,
+          "value": 0.310500085
+        },
+        {
+          "id": 2,
+          "value": 0.514499962
+        },
+        {
+          "id": 3,
+          "value": 0.228000045
+        },
+        {
+          "id": 4,
+          "value": 1.14849985
+        },
+        {
+          "id": 5,
+          "value": 0.523800015
+        },
+        {
+          "id": 6,
+          "value": 0.769499958
+        },
+        {
+          "id": 7,
+          "value": 0.440100074
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 17,
+      "rightModuleId": 19,
+      "data": {
+        "filtermode": 0
+      },
+      "gestaltID": 1,
+      "gradient": true,
+      "patina": false,
+      "patina_i_x": true,
+      "patina_i_y": true,
+      "patina_a_x": 464.277222,
+      "patina_a_y": 520.528015,
+      "overlay": false,
+      "overlay_r": 0.862494826,
+      "overlay_g": 0.645356953,
+      "overlay_b": 0.458373129,
+      "overlay_a": 0.236010641,
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 19,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Random",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.00199999614
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 18,
+      "rightModuleId": 20,
+      "pos": [
+        57,
+        0
+      ]
+    },
+    {
+      "id": 20,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 19,
+      "text": "grammatica 026 - 2020-09-22\n\nOne Cloud Generator frequency modulates another Cloud Generator. A stepped randomized dual filter (Vampyr) makes them sing.",
+      "pos": [
+        62,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 23,
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 24,
+      "outputModuleId": 16,
+      "outputId": 1,
+      "inputModuleId": 17,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 22,
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 18,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 26,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 19,
+      "outputId": 1,
+      "inputModuleId": 18,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 27,
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 18,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 29,
+      "outputModuleId": 19,
+      "outputId": 2,
+      "inputModuleId": 16,
+      "inputId": 3,
+      "color": "#0c8e15"
+    }
+  ]
+}
