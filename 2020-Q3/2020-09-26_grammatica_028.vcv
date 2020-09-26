@@ -1,0 +1,501 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 21,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 14,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-DGate",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.173205078
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 22,
+      "rightModuleId": 16,
+      "data": {
+        "triggerOnLoad": true,
+        "shouldTriggerOnLoad": false
+      },
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "plugin": "VultModulesFree",
+      "version": "1.12",
+      "model": "Trummor",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.714036882
+        },
+        {
+          "id": 1,
+          "value": 0.134802461
+        },
+        {
+          "id": 2,
+          "value": 0.875604212
+        },
+        {
+          "id": 3,
+          "value": 0.0827510357
+        },
+        {
+          "id": 4,
+          "value": 0.787453353
+        },
+        {
+          "id": 5,
+          "value": 0.340357125
+        },
+        {
+          "id": 6,
+          "value": 0.867970526
+        },
+        {
+          "id": 7,
+          "value": 0.975376129
+        },
+        {
+          "id": 8,
+          "value": 0.168543458
+        },
+        {
+          "id": 9,
+          "value": -0.579214811
+        },
+        {
+          "id": 10,
+          "value": 2.78570199
+        },
+        {
+          "id": 11,
+          "value": 0.555864215
+        },
+        {
+          "id": 12,
+          "value": 0.80763036
+        },
+        {
+          "id": 13,
+          "value": 0.980036557
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 0.758252025
+        },
+        {
+          "id": 17,
+          "value": -0.495354772
+        },
+        {
+          "id": 18,
+          "value": 0.614382267
+        },
+        {
+          "id": 19,
+          "value": 1.0
+        },
+        {
+          "id": 20,
+          "value": 4.0
+        }
+      ],
+      "leftModuleId": 16,
+      "rightModuleId": 17,
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "plugin": "Stoermelder-P1",
+      "version": "1.7.1",
+      "model": "Strip",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 14,
+      "rightModuleId": 15,
+      "data": {
+        "panelTheme": 0,
+        "mode": 1,
+        "onMode": 0,
+        "excludedParams": [],
+        "randomExcl": 1,
+        "randomParamsOnly": false
+      },
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 17,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Delay",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.878241837
+        },
+        {
+          "id": 1,
+          "value": 0.543763757
+        },
+        {
+          "id": 2,
+          "value": 0.654645026
+        },
+        {
+          "id": 3,
+          "value": 0.271668673
+        }
+      ],
+      "leftModuleId": 15,
+      "rightModuleId": 18,
+      "pos": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 18,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "TremoloStereoFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.418118
+        },
+        {
+          "id": 1,
+          "value": 0.0896036625
+        },
+        {
+          "id": 2,
+          "value": 0.611029625
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 17,
+      "rightModuleId": 19,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        58,
+        0
+      ]
+    },
+    {
+      "id": 19,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Delay",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.408691168
+        },
+        {
+          "id": 1,
+          "value": 0.611760437
+        },
+        {
+          "id": 2,
+          "value": 0.869016767
+        },
+        {
+          "id": 3,
+          "value": 0.125886321
+        }
+      ],
+      "leftModuleId": 18,
+      "rightModuleId": 23,
+      "pos": [
+        64,
+        0
+      ]
+    },
+    {
+      "id": 20,
+      "plugin": "JW-Modules",
+      "version": "1.0.14",
+      "model": "SimpleClock",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": -2.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 21,
+      "rightModuleId": 22,
+      "data": {
+        "running": true
+      },
+      "pos": [
+        14,
+        0
+      ]
+    },
+    {
+      "id": 21,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Links",
+      "params": [],
+      "leftModuleId": 1,
+      "rightModuleId": 20,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 22,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Branches",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.100000001
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 20,
+      "rightModuleId": 14,
+      "data": {
+        "modes": [
+          false,
+          false
+        ]
+      },
+      "pos": [
+        18,
+        0
+      ]
+    },
+    {
+      "id": 23,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 19,
+      "text": "grammatica 028 - 2020-09-26\n\nrecipe for instant IDM:\n\n- stoermelder STRIP (random trig)\n- vult TRUMMOR (v1)\n- M.I. bernoulli gate\n- modulated delays\n- stereo separation\n\nserve cold.",
+      "pos": [
+        72,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 16,
+      "outputModuleId": 17,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 18,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 17,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 18,
+      "outputId": 1,
+      "inputModuleId": 19,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 19,
+      "outputModuleId": 19,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 21,
+      "outputModuleId": 15,
+      "outputId": 2,
+      "inputModuleId": 19,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 20,
+      "outputModuleId": 15,
+      "outputId": 2,
+      "inputModuleId": 17,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 23,
+      "outputModuleId": 21,
+      "outputId": 5,
+      "inputModuleId": 14,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 14,
+      "outputId": 0,
+      "inputModuleId": 15,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 26,
+      "outputModuleId": 21,
+      "outputId": 5,
+      "inputModuleId": 16,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 22,
+      "outputModuleId": 20,
+      "outputId": 2,
+      "inputModuleId": 21,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 27,
+      "outputModuleId": 20,
+      "outputId": 0,
+      "inputModuleId": 22,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 22,
+      "outputId": 2,
+      "inputModuleId": 21,
+      "inputId": 4,
+      "color": "#0986ad"
+    }
+  ]
+}

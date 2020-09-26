@@ -120,3 +120,15 @@ One Cloud Generator frequency modulates another Cloud Generator. A stepped rando
 ## grammatica 027 - 2020-09-25
 
 Finally we discover what an electric sheep sounds like.
+
+## grammatica 028 - 2020-09-26
+
+recipe for instant IDM:
+
+- stoermelder STRIP (random trig)
+- vult TRUMMOR (v1)
+- M.I. bernoulli gate
+- modulated delays
+- stereo separation
+
+serve cold.
