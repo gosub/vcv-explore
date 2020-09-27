@@ -132,3 +132,8 @@ recipe for instant IDM:
 - stereo separation
 
 serve cold.
+
+## grammatica 029 - 2020-09-27
+
+String Theory + Alan + Quantizer (with a pentatonic scale) make a lousy guitarist.
+A full-wave rectifier + DC Block (x3) and a BrickWall rock-and-rolls it.
