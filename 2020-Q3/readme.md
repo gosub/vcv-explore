@@ -137,3 +137,7 @@ serve cold.
 
 String Theory + Alan + Quantizer (with a pentatonic scale) make a lousy guitarist.
 A full-wave rectifier + DC Block (x3) and a BrickWall rock-and-rolls it.
+
+## grammatica 030 - 2020-09-29
+
+A grungy drone made with two phaser and a distortion. boring.
