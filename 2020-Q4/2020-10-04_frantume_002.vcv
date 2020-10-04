@@ -1,0 +1,523 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 36,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 26,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -4.65004158
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 27,
+      "rightModuleId": 29,
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 27,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-UMix",
+      "params": [],
+      "leftModuleId": 28,
+      "rightModuleId": 26,
+      "data": {
+        "clipping_mode": 0,
+        "input_gain_db": 0.0,
+        "sum": true
+      },
+      "pos": [
+        35,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCA-1",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.330000013
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 37,
+      "rightModuleId": 27,
+      "pos": [
+        32,
+        0
+      ]
+    },
+    {
+      "id": 29,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -4.65004158
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.100000001
+        }
+      ],
+      "leftModuleId": 26,
+      "rightModuleId": 30,
+      "pos": [
+        44,
+        0
+      ]
+    },
+    {
+      "id": 30,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -16.650034
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.109999999
+        }
+      ],
+      "leftModuleId": 29,
+      "rightModuleId": 31,
+      "pos": [
+        50,
+        0
+      ]
+    },
+    {
+      "id": 31,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -16.650034
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.119999997
+        }
+      ],
+      "leftModuleId": 30,
+      "rightModuleId": 35,
+      "pos": [
+        56,
+        0
+      ]
+    },
+    {
+      "id": 33,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 34,
+      "rightModuleId": 38,
+      "data": {},
+      "pos": [
+        68,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.85800004
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 35,
+      "rightModuleId": 33,
+      "data": {},
+      "pos": [
+        65,
+        0
+      ]
+    },
+    {
+      "id": 35,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.59900022
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 31,
+      "rightModuleId": 34,
+      "data": {},
+      "pos": [
+        62,
+        0
+      ]
+    },
+    {
+      "id": 36,
+      "plugin": "Blamsoft-XFXReverb",
+      "version": "1.0.0",
+      "model": "Blamsoft-XFXReverb",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 0.872500122
+        },
+        {
+          "id": 2,
+          "value": 0.65350014
+        },
+        {
+          "id": 3,
+          "value": 0.295999974
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.392499983
+        },
+        {
+          "id": 6,
+          "value": 0.25
+        },
+        {
+          "id": 7,
+          "value": 0.5
+        },
+        {
+          "id": 8,
+          "value": 0.740500212
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 37,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Delay",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.612499952
+        },
+        {
+          "id": 1,
+          "value": 0.726500034
+        },
+        {
+          "id": 2,
+          "value": 0.198499992
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 36,
+      "rightModuleId": 28,
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 38,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 33,
+      "text": "frantume 002 - 2020-10-04\n\nFour VCO-2 slightly detuned via three BGA LLFO. The longest lfo also modulates the lowest oscillator wave. A modulated Delay and some XFX Reverb are thrown in the mix for some ambience.",
+      "pos": [
+        71,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 36,
+      "outputModuleId": 27,
+      "outputId": 0,
+      "inputModuleId": 28,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 39,
+      "outputModuleId": 26,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 40,
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 44,
+      "outputModuleId": 33,
+      "outputId": 0,
+      "inputModuleId": 29,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 45,
+      "outputModuleId": 30,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 46,
+      "outputModuleId": 34,
+      "outputId": 0,
+      "inputModuleId": 30,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 47,
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 48,
+      "outputModuleId": 31,
+      "outputId": 0,
+      "inputModuleId": 27,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 49,
+      "outputModuleId": 36,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 50,
+      "outputModuleId": 36,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 28,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 52,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 36,
+      "inputId": 5,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 53,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 36,
+      "inputId": 6,
+      "color": "#c91847"
+    },
+    {
+      "id": 54,
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 37,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 56,
+      "outputModuleId": 35,
+      "outputId": 0,
+      "inputModuleId": 31,
+      "inputId": 2,
+      "color": "#0c8e15"
+    }
+  ]
+}
