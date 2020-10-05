@@ -1,0 +1,306 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 9,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 9,
+      "plugin": "MSM",
+      "version": "1.0.0",
+      "model": "DualDelay",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.617800057
+        },
+        {
+          "id": 3,
+          "value": 0.604299963
+        },
+        {
+          "id": 4,
+          "value": -1.0
+        },
+        {
+          "id": 5,
+          "value": -1.0
+        },
+        {
+          "id": 6,
+          "value": 0.197499916
+        },
+        {
+          "id": 7,
+          "value": 0.793500066
+        },
+        {
+          "id": 8,
+          "value": 0.164499998
+        },
+        {
+          "id": 9,
+          "value": 0.595499873
+        },
+        {
+          "id": 10,
+          "value": 0.692499995
+        },
+        {
+          "id": 11,
+          "value": 0.59950006
+        },
+        {
+          "id": 12,
+          "value": 0.279499978
+        },
+        {
+          "id": 13,
+          "value": 0.285499871
+        },
+        {
+          "id": 14,
+          "value": 0.212999985
+        },
+        {
+          "id": 15,
+          "value": 0.202499956
+        },
+        {
+          "id": 16,
+          "value": 0.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 11,
+      "data": {
+        "Theme": 0,
+        "DISPLAYA": 0,
+        "DISPLAYB": 0
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 11,
+      "plugin": "TinyTricks",
+      "version": "1.5.0",
+      "model": "TTSQR",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.17900181
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0768331066
+        }
+      ],
+      "leftModuleId": 9,
+      "rightModuleId": 13,
+      "data": {
+        "skin": 0,
+        "forcebright": false
+      },
+      "pos": [
+        35,
+        0
+      ]
+    },
+    {
+      "id": 13,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -3.93900037
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 3.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.100000001
+        }
+      ],
+      "leftModuleId": 11,
+      "rightModuleId": 15,
+      "data": {},
+      "pos": [
+        38,
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "plugin": "HetrickCV",
+      "version": "1.0.0",
+      "model": "Dust",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0250000004
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 13,
+      "rightModuleId": 16,
+      "pos": [
+        41,
+        0
+      ]
+    },
+    {
+      "id": 16,
+      "plugin": "CountModula",
+      "version": "1.12.1",
+      "model": "Comparator",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 15,
+      "rightModuleId": 17,
+      "data": {
+        "moduleVersion": 2,
+        "theme": 0
+      },
+      "pos": [
+        47,
+        0
+      ]
+    },
+    {
+      "id": 17,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 16,
+      "text": "frantume 003 - 2020-10-09\n\nMSM Dual Delay takes us to hell and back.",
+      "pos": [
+        53,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 14,
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 11,
+      "color": "#0986ad"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 9,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 9,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 22,
+      "outputModuleId": 11,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 12,
+      "color": "#0986ad"
+    },
+    {
+      "id": 23,
+      "outputModuleId": 13,
+      "outputId": 0,
+      "inputModuleId": 11,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 25,
+      "outputModuleId": 15,
+      "outputId": 0,
+      "inputModuleId": 16,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 27,
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 16,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 28,
+      "outputModuleId": 16,
+      "outputId": 0,
+      "inputModuleId": 9,
+      "inputId": 15,
+      "color": "#c91847"
+    }
+  ]
+}
