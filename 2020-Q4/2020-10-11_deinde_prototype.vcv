@@ -1,0 +1,474 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 37,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 37,
+      "plugin": "VCV-Prototype",
+      "version": "1.3.0",
+      "model": "Prototype",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 42,
+      "data": {
+        "path": "/home/gg/Dropbox/prj/2020/vcv_explore/2020-Q4/2020-10-11_deinde_prototype.js",
+        "script": "\nconfig.frameDivider = 1\nconfig.bufferSize = 32\n\nfunction clamp(value, min, max) {\n    if (value < min) {\n        return min;\n    } else if (value > max) {\n        return max;\n    } else {\n        return value;\n    }\n}\n\nfunction process(block) {\n    for (let buff_idx = 0; buff_idx < block.bufferSize; buff_idx++) {\n        let input = block.knobs[0] * 10;\n        output0 = clamp(input * 4, 0, 10);\n        output1 = clamp(input * 4 - 10, 0, 10);\n        output2 = clamp(input * 4 - 20, 0, 10);\n        output3 = clamp(input * 4 - 30, 0, 10);\n\n\n        block.outputs[0][buff_idx] = output0;\n        block.outputs[1][buff_idx] = output1;\n        block.outputs[2][buff_idx] = output2;\n        block.outputs[3][buff_idx] = output3;\n    }\n}\n"
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 42,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.398107171
+        },
+        {
+          "id": 1,
+          "value": 0.753926873
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 37,
+      "pos": [
+        25,
+        0
+      ]
+    },
+    {
+      "id": 44,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LVCO",
+      "params": [
+        {
+          "id": 0,
+          "value": -1.55550122
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 50,
+      "rightModuleId": 48,
+      "data": {
+        "poly_input": 0,
+        "fm_mode": false,
+        "linear_mode": false
+      },
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 46,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "PhaserFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.192000002
+        },
+        {
+          "id": 1,
+          "value": 0.269324988
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 51,
+      "rightModuleId": 47,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        62,
+        0
+      ]
+    },
+    {
+      "id": 47,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "ReverbFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 46,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        68,
+        0
+      ]
+    },
+    {
+      "id": 48,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "SuperDriveFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 44,
+      "rightModuleId": 52,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        43,
+        0
+      ]
+    },
+    {
+      "id": 50,
+      "plugin": "Bogaudio",
+      "version": "1.1.34",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -0.682500005
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 3.0
+        },
+        {
+          "id": 3,
+          "value": -0.164999977
+        },
+        {
+          "id": 4,
+          "value": 0.109000042
+        }
+      ],
+      "rightModuleId": 44,
+      "data": {},
+      "pos": [
+        37,
+        0
+      ]
+    },
+    {
+      "id": 51,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "DelayPlusFx",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.890000343
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 52,
+      "rightModuleId": 46,
+      "data": {
+        "as_FxBypass": [
+          false
+        ]
+      },
+      "pos": [
+        54,
+        0
+      ]
+    },
+    {
+      "id": 52,
+      "plugin": "AS",
+      "version": "1.0.4",
+      "model": "AtNuVrTr",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.5
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 48,
+      "rightModuleId": 51,
+      "pos": [
+        49,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 39,
+      "outputModuleId": 42,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 40,
+      "outputModuleId": 42,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 53,
+      "outputModuleId": 46,
+      "outputId": 0,
+      "inputModuleId": 47,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 51,
+      "outputModuleId": 51,
+      "outputId": 1,
+      "inputModuleId": 46,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 56,
+      "outputModuleId": 44,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 59,
+      "outputModuleId": 48,
+      "outputId": 0,
+      "inputModuleId": 51,
+      "inputId": 5,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 60,
+      "outputModuleId": 47,
+      "outputId": 0,
+      "inputModuleId": 42,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 61,
+      "outputModuleId": 37,
+      "outputId": 0,
+      "inputModuleId": 48,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 37,
+      "outputId": 3,
+      "inputModuleId": 47,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 62,
+      "outputModuleId": 37,
+      "outputId": 2,
+      "inputModuleId": 46,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 42,
+      "outputModuleId": 37,
+      "outputId": 1,
+      "inputModuleId": 52,
+      "inputId": 4,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 63,
+      "outputModuleId": 52,
+      "outputId": 0,
+      "inputModuleId": 51,
+      "inputId": 4,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 58,
+      "outputModuleId": 50,
+      "outputId": 0,
+      "inputModuleId": 44,
+      "inputId": 1,
+      "color": "#0986ad"
+    }
+  ]
+}
