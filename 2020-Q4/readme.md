@@ -34,3 +34,7 @@ The raise of knob 1 is spread between four outputs, in cascade. For example:
 - KNOB 1 between 1/4 and 1/2: output 2 goes from 0 to 10v, and stays there
 - KNOB 1 between 1/2 and 3/4: output 3 goes from 0 to 10v, and stays there
 - KNOB 1 between 3/4 and 1: output 4 goes from 0 to 10v
+
+## frantume 006 - 2020-10-18
+
+Two piano voices: one plays the high notes, the other the low notes.
