@@ -38,3 +38,7 @@ The raise of knob 1 is spread between four outputs, in cascade. For example:
 ## frantume 006 - 2020-10-18
 
 Two piano voices: one plays the high notes, the other the low notes.
+
+## frantume 007 - 2020-10-28
+
+Distorted cats in heat.
