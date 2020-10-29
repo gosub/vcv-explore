@@ -42,3 +42,7 @@ Two piano voices: one plays the high notes, the other the low notes.
 ## frantume 007 - 2020-10-28
 
 Distorted cats in heat.
+
+## frantume 008 - 2020-10-29
+
+Drum sound generator.
