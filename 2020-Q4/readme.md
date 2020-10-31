@@ -50,3 +50,7 @@ Drum sound generator.
 ## frantume 009 - 2020-10-30
 
 This pinball machine is mad like a coconut.
+
+## frantume 010 - 2020-10-31
+
+strange bells. very strange bells. I'm scared.
