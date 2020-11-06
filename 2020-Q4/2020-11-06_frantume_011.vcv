@@ -1,0 +1,515 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 180,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 128,
+      "plugin": "NYSTHI",
+      "version": "1.0.16",
+      "model": "TZEN",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0405000001
+        },
+        {
+          "id": 1,
+          "value": 0.100000001
+        },
+        {
+          "id": 2,
+          "value": 0.5
+        },
+        {
+          "id": 3,
+          "value": 0.0639999211
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 1.31200016
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.327000022
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.0
+        },
+        {
+          "id": 15,
+          "value": 1.0
+        },
+        {
+          "id": 16,
+          "value": 1.0
+        },
+        {
+          "id": 17,
+          "value": 0.0
+        },
+        {
+          "id": 18,
+          "value": 0.0
+        },
+        {
+          "id": 19,
+          "value": 0.0
+        },
+        {
+          "id": 20,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 176,
+      "rightModuleId": 182,
+      "data": {
+        "m_ZEROONTRIG": false,
+        "m_TRIGIFSTABLE": false,
+        "m_EXPONENTIALMODE": false,
+        "m_time_range": 10,
+        "m_ar_mode": true,
+        "m_looped": true,
+        "m_base_level": 0.0
+      },
+      "pos": [
+        53,
+        0
+      ]
+    },
+    {
+      "id": 129,
+      "plugin": "rackwindows",
+      "version": "1.1.2",
+      "model": "chorus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.312085062
+        },
+        {
+          "id": 1,
+          "value": 0.60788101
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 179,
+      "rightModuleId": 178,
+      "data": {
+        "quality": 0
+      },
+      "pos": [
+        22,
+        0
+      ]
+    },
+    {
+      "id": 176,
+      "plugin": "NYSTHI",
+      "version": "1.0.16",
+      "model": "TZOP",
+      "params": [
+        {
+          "id": 0,
+          "value": -2.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 8.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.216000021
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.904500127
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 181,
+      "rightModuleId": 128,
+      "data": {
+        "m_correlated_feedback": true,
+        "m_detached_from_expander": false,
+        "m_randomize_phi_percentage": 0.0,
+        "m_base_freq": 261.625565
+      },
+      "pos": [
+        43,
+        0
+      ]
+    },
+    {
+      "id": 177,
+      "plugin": "rackwindows",
+      "version": "1.1.2",
+      "model": "chorus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.211791068
+        },
+        {
+          "id": 1,
+          "value": 0.637617946
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 178,
+      "rightModuleId": 181,
+      "data": {
+        "quality": 0
+      },
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "id": 178,
+      "plugin": "rackwindows",
+      "version": "1.1.2",
+      "model": "chorus",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.586075127
+        },
+        {
+          "id": 1,
+          "value": 0.5286358
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 129,
+      "rightModuleId": 177,
+      "data": {
+        "quality": 0
+      },
+      "pos": [
+        28,
+        0
+      ]
+    },
+    {
+      "id": 179,
+      "plugin": "ChowDSP",
+      "version": "1.4.0",
+      "model": "ChowDer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.380999953
+        },
+        {
+          "id": 1,
+          "value": -0.177000016
+        },
+        {
+          "id": 2,
+          "value": 0.61100024
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 180,
+      "rightModuleId": 129,
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 180,
+      "plugin": "ChowDSP",
+      "version": "1.4.0",
+      "model": "ChowDer",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.384000003
+        },
+        {
+          "id": 1,
+          "value": -0.224999994
+        },
+        {
+          "id": 2,
+          "value": 0.612500012
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 179,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 181,
+      "plugin": "Bogaudio",
+      "version": "1.1.35",
+      "model": "Bogaudio-LLFO",
+      "params": [
+        {
+          "id": 0,
+          "value": -4.35329056
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 5.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0299999993
+        }
+      ],
+      "leftModuleId": 177,
+      "rightModuleId": 176,
+      "data": {},
+      "pos": [
+        40,
+        0
+      ]
+    },
+    {
+      "id": 182,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 128,
+      "text": "frantume 011 - 2020-11-06\n\nA single FM voice, A snilge FM vicoe. oice. oice. oice.",
+      "pos": [
+        61,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 31,
+      "outputModuleId": 128,
+      "outputId": 0,
+      "inputModuleId": 176,
+      "inputId": 12,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 35,
+      "outputModuleId": 176,
+      "outputId": 0,
+      "inputModuleId": 177,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 176,
+      "outputId": 0,
+      "inputModuleId": 177,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 37,
+      "outputModuleId": 177,
+      "outputId": 1,
+      "inputModuleId": 178,
+      "inputId": 3,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 36,
+      "outputModuleId": 177,
+      "outputId": 0,
+      "inputModuleId": 178,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 39,
+      "outputModuleId": 178,
+      "outputId": 0,
+      "inputModuleId": 129,
+      "inputId": 2,
+      "color": "#c91847"
+    },
+    {
+      "id": 40,
+      "outputModuleId": 178,
+      "outputId": 1,
+      "inputModuleId": 129,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 44,
+      "outputModuleId": 129,
+      "outputId": 1,
+      "inputModuleId": 179,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 45,
+      "outputModuleId": 179,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 43,
+      "outputModuleId": 129,
+      "outputId": 0,
+      "inputModuleId": 180,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 46,
+      "outputModuleId": 180,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 47,
+      "outputModuleId": 181,
+      "outputId": 0,
+      "inputModuleId": 176,
+      "inputId": 0,
+      "color": "#0986ad"
+    }
+  ]
+}

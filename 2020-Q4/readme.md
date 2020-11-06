@@ -54,3 +54,7 @@ This pinball machine is mad like a coconut.
 ## frantume 010 - 2020-10-31
 
 strange bells. very strange bells. I'm scared.
+
+## frantume 011 - 2020-11-06
+
+A single FM voice, A snilge FM vicoe. oice. oice. oice.
