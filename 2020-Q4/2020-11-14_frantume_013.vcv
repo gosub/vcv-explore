@@ -1,0 +1,391 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 199,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 199,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Braids",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": -2.0
+        },
+        {
+          "id": 2,
+          "value": 0.497999936
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 0.798999906
+        },
+        {
+          "id": 6,
+          "value": 0.189000174
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 200,
+      "data": {
+        "settings": [
+          9,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "lowCpu": false
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 200,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Ripples",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.2685
+        },
+        {
+          "id": 1,
+          "value": 8.67532253
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 199,
+      "rightModuleId": 201,
+      "pos": [
+        26,
+        0
+      ]
+    },
+    {
+      "id": 201,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Stages",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.402500004
+        },
+        {
+          "id": 1,
+          "value": 0.390500009
+        },
+        {
+          "id": 2,
+          "value": 0.248500019
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.5
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        },
+        {
+          "id": 9,
+          "value": 0.0
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.652999997
+        },
+        {
+          "id": 13,
+          "value": 0.122000031
+        },
+        {
+          "id": 14,
+          "value": 0.175999969
+        },
+        {
+          "id": 15,
+          "value": 0.169999957
+        },
+        {
+          "id": 16,
+          "value": 0.5
+        },
+        {
+          "id": 17,
+          "value": 0.5
+        }
+      ],
+      "leftModuleId": 200,
+      "rightModuleId": 202,
+      "data": {
+        "configurations": [
+          {
+            "type": 0,
+            "loop": true
+          },
+          {
+            "type": 0,
+            "loop": true
+          },
+          {
+            "type": 0,
+            "loop": true
+          },
+          {
+            "type": 0,
+            "loop": true
+          },
+          {
+            "type": 0,
+            "loop": false
+          },
+          {
+            "type": 0,
+            "loop": false
+          }
+        ]
+      },
+      "pos": [
+        34,
+        0
+      ]
+    },
+    {
+      "id": 202,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Veils",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.346500039
+        },
+        {
+          "id": 1,
+          "value": 0.0765000209
+        },
+        {
+          "id": 2,
+          "value": 0.0855000019
+        },
+        {
+          "id": 3,
+          "value": 0.00999999978
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        },
+        {
+          "id": 5,
+          "value": 1.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 201,
+      "rightModuleId": 203,
+      "pos": [
+        48,
+        0
+      ]
+    },
+    {
+      "id": 203,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 202,
+      "text": "frantume 013 - 2020-11-14\n\nAll Audible Instruments. Smooth blip&blops.",
+      "pos": [
+        60,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 63,
+      "outputModuleId": 199,
+      "outputId": 0,
+      "inputModuleId": 200,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 66,
+      "outputModuleId": 202,
+      "outputId": 0,
+      "inputModuleId": 200,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 67,
+      "outputModuleId": 201,
+      "outputId": 2,
+      "inputModuleId": 202,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 62,
+      "outputModuleId": 202,
+      "outputId": 1,
+      "inputModuleId": 199,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 68,
+      "outputModuleId": 201,
+      "outputId": 1,
+      "inputModuleId": 202,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 61,
+      "outputModuleId": 202,
+      "outputId": 2,
+      "inputModuleId": 199,
+      "inputId": 3,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 69,
+      "outputModuleId": 201,
+      "outputId": 0,
+      "inputModuleId": 202,
+      "inputId": 2,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 70,
+      "outputModuleId": 201,
+      "outputId": 3,
+      "inputModuleId": 202,
+      "inputId": 3,
+      "color": "#c91847"
+    },
+    {
+      "id": 71,
+      "outputModuleId": 202,
+      "outputId": 3,
+      "inputModuleId": 200,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 72,
+      "outputModuleId": 202,
+      "outputId": 3,
+      "inputModuleId": 199,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 65,
+      "outputModuleId": 200,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 64,
+      "outputModuleId": 200,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#c9b70e"
+    }
+  ]
+}
