@@ -62,3 +62,7 @@ A single FM voice, A snilge FM vicoe. oice. oice. oice.
 ## frantume 012 - 2020-11-13
 
 A heavy distorted bass track becomes a thunmping kick track. Driven by multiple LLFOs.
+
+## frantume 013 - 2020-11-14
+
+All Audible Instruments. Smooth blip&blops.
