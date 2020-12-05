@@ -66,3 +66,7 @@ A heavy distorted bass track becomes a thunmping kick track. Driven by multiple 
 ## frantume 013 - 2020-11-14
 
 All Audible Instruments. Smooth blip&blops.
+
+## frantume 014 - 2020-12-05
+
+A rungler circuit clone.
