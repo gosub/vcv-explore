@@ -70,3 +70,7 @@ All Audible Instruments. Smooth blip&blops.
 ## frantume 014 - 2020-12-05
 
 A rungler circuit clone.
+
+## benjolin - 2020-12-12
+
+A benjolin inspired patch.
