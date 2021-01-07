@@ -1,0 +1,307 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 29,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 27,
+      "plugin": "voxglitch",
+      "version": "1.22.0",
+      "model": "bytebeat",
+      "params": [
+        {
+          "id": 0,
+          "value": 48.0
+        },
+        {
+          "id": 1,
+          "value": 2.0
+        },
+        {
+          "id": 2,
+          "value": 0.504000068
+        },
+        {
+          "id": 3,
+          "value": 0.510000169
+        },
+        {
+          "id": 4,
+          "value": 0.504000068
+        }
+      ],
+      "leftModuleId": 32,
+      "rightModuleId": 28,
+      "data": {},
+      "pos": [
+        27,
+        0
+      ]
+    },
+    {
+      "id": 28,
+      "plugin": "Instruo",
+      "version": "1.1.0",
+      "model": "ochd",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.426499993
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 27,
+      "data": {
+        "deviations": {
+          "lfos": [
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 154.699997,
+                "minimum": 0.147,
+                "absMinimum": 0.000294000027,
+                "absMaximum": 160.887985
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 84.7399979,
+                "minimum": 0.0816000029,
+                "absMinimum": 0.00016320002,
+                "absMaximum": 88.1295929
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 42.2599983,
+                "minimum": 0.0417000018,
+                "absMinimum": 8.34000093e-5,
+                "absMaximum": 43.9503975
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 22.0100002,
+                "minimum": 0.0221999995,
+                "absMinimum": 4.43999998e-5,
+                "absMaximum": 22.8903999
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 10.3699999,
+                "minimum": 0.0102000004,
+                "absMinimum": 2.04000025e-5,
+                "absMaximum": 10.7847996
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 4.69999981,
+                "minimum": 0.00505999988,
+                "absMinimum": 1.01200003e-5,
+                "absMaximum": 4.88799953
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 2.11999989,
+                "minimum": 0.00212999992,
+                "absMinimum": 4.25999997e-6,
+                "absMaximum": 2.20479989
+              }
+            },
+            {
+              "amplitude": 5.5,
+              "frequency": {
+                "maximum": 1.00999999,
+                "minimum": 0.00100000005,
+                "absMinimum": 2.00000022e-6,
+                "absMaximum": 1.0503999
+              }
+            }
+          ]
+        }
+      },
+      "pos": [
+        47,
+        0
+      ]
+    },
+    {
+      "id": 29,
+      "plugin": "NYSTHI",
+      "version": "1.0.17",
+      "model": "StereoChorus2",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.600000024
+        },
+        {
+          "id": 1,
+          "value": 0.200000003
+        },
+        {
+          "id": 2,
+          "value": 0.600000024
+        },
+        {
+          "id": 3,
+          "value": 0.5
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 1.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        },
+        {
+          "id": 8,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 32,
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 32,
+      "plugin": "RJModules",
+      "version": "1.7.2",
+      "model": "Range",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -5.0
+        },
+        {
+          "id": 3,
+          "value": 5.0
+        }
+      ],
+      "leftModuleId": 29,
+      "rightModuleId": 27,
+      "pos": [
+        17,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 11,
+      "outputModuleId": 28,
+      "outputId": 5,
+      "inputModuleId": 27,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 12,
+      "outputModuleId": 28,
+      "outputId": 6,
+      "inputModuleId": 27,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 13,
+      "outputModuleId": 28,
+      "outputId": 4,
+      "inputModuleId": 27,
+      "inputId": 2,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 14,
+      "outputModuleId": 29,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 15,
+      "outputModuleId": 29,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c91847"
+    },
+    {
+      "id": 16,
+      "outputModuleId": 27,
+      "outputId": 0,
+      "inputModuleId": 32,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 17,
+      "outputModuleId": 32,
+      "outputId": 0,
+      "inputModuleId": 29,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 18,
+      "outputModuleId": 28,
+      "outputId": 7,
+      "inputModuleId": 29,
+      "inputId": 5,
+      "color": "#c91847"
+    }
+  ]
+}
