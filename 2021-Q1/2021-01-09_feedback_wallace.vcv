@@ -1,0 +1,268 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "rightModuleId": 36,
+      "data": {
+        "audio": {
+          "driver": 1,
+          "deviceName": "hw:HDA Intel,0",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 48000,
+          "blockSize": 1024
+        }
+      },
+      "pos": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": 34,
+      "plugin": "AudibleInstruments",
+      "version": "1.5.0",
+      "model": "Branches",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0449999943
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 40,
+      "rightModuleId": 38,
+      "data": {
+        "modes": [
+          true,
+          false
+        ]
+      },
+      "pos": [
+        24,
+        0
+      ]
+    },
+    {
+      "id": 36,
+      "plugin": "squinkylabs-plug1",
+      "version": "1.0.15",
+      "model": "squinkylabs-freqshifter",
+      "params": [
+        {
+          "id": 0,
+          "value": -2.92499924
+        }
+      ],
+      "leftModuleId": 1,
+      "rightModuleId": 40,
+      "data": {
+        "range": 50
+      },
+      "pos": [
+        10,
+        0
+      ]
+    },
+    {
+      "id": 38,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Quantizer",
+      "params": [],
+      "leftModuleId": 34,
+      "rightModuleId": 39,
+      "data": {
+        "enabledNotes": [
+          false,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true,
+          true,
+          true,
+          true,
+          false,
+          false
+        ]
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 39,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO2",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -32.4000092
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.289499998
+        }
+      ],
+      "leftModuleId": 38,
+      "rightModuleId": 41,
+      "pos": [
+        33,
+        0
+      ]
+    },
+    {
+      "id": 40,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCF",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.5
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 36,
+      "rightModuleId": 34,
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 41,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "leftModuleId": 39,
+      "text": "feedback wallace - 2021-01-09\n\nis this the noise you told me about?",
+      "pos": [
+        39,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 27,
+      "outputModuleId": 36,
+      "outputId": 1,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 32,
+      "outputModuleId": 39,
+      "outputId": 0,
+      "inputModuleId": 38,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 33,
+      "outputModuleId": 38,
+      "outputId": 0,
+      "inputModuleId": 36,
+      "inputId": 0,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 36,
+      "outputModuleId": 39,
+      "outputId": 0,
+      "inputModuleId": 34,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 35,
+      "outputModuleId": 34,
+      "outputId": 0,
+      "inputModuleId": 40,
+      "inputId": 3,
+      "color": "#0986ad"
+    },
+    {
+      "id": 37,
+      "outputModuleId": 40,
+      "outputId": 0,
+      "inputModuleId": 36,
+      "inputId": 1,
+      "color": "#0c8e15"
+    },
+    {
+      "id": 38,
+      "outputModuleId": 40,
+      "outputId": 1,
+      "inputModuleId": 39,
+      "inputId": 0,
+      "color": "#c91847"
+    },
+    {
+      "id": 39,
+      "outputModuleId": 36,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#0986ad"
+    },
+    {
+      "id": 40,
+      "outputModuleId": 40,
+      "outputId": 0,
+      "inputModuleId": 39,
+      "inputId": 2,
+      "color": "#c9b70e"
+    }
+  ]
+}
