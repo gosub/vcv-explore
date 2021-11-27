@@ -19,3 +19,7 @@ This patch has three buttons:
 ## quattro - 2021-05-11
 
 A droning macro oscillator is the input of a resonator. Four buttons change momentarily the resonator characteristics.
+
+## cinque - 2021-05-17
+
+Chaotic CVs drive a pulse synthesis oscillator.
