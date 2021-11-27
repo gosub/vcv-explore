@@ -15,3 +15,7 @@ This patch has three buttons:
 - The first button feeds an organ sound in the looper
 - The second button feeds another organ sound in the looper
 - The third button modulates the loop timing
+
+## quattro - 2021-05-11
+
+A droning macro oscillator is the input of a resonator. Four buttons change momentarily the resonator characteristics.
