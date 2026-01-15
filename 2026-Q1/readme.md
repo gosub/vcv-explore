@@ -7,8 +7,6 @@
 This patch is just one *4ms Ensemble Oscillator* modulated by a slow LFO,
 overdriven and riverberated. It sounds like the matrix.
 
-![la matrice audio extract](media/2026-01-10_la_matrice.mp4)
-
 ## mum drachine - 2026-01-10 (VCV Rack 2.6.6)
 
 ![mum drachine patch screenshot](media/2026-01-10_mum_drachine.webp)
