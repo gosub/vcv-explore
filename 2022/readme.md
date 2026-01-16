@@ -1,4 +1,4 @@
-# VCV Rack patches - 2022-Q1
+# VCV Rack patches - 2022
 
 ## remotouno - 2022-02-04
 
