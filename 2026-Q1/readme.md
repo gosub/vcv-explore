@@ -26,3 +26,7 @@ Pico Drums, playing a steady 4-on-floor kick drum rhythm. The seven audio
 signals are mixed on a *Bogaudio MIX8*, and the mix is compressed with a
 *Squinky Labs Comp*. Playing with the main change knobs on the TMs decides how
 drunk the drummer is.
+
+## knee-deep in the dread - 2026-01-17 (VCV Rack 2.6.6)
+
+TODO
