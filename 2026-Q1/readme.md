@@ -29,4 +29,6 @@ drunk the drummer is.
 
 ## knee-deep in the dread - 2026-01-17 (VCV Rack 2.6.6)
 
+![knee-deep in the dread patch screenshot](media/2026-01-17_knee-deep_in_the_dread.webp)
+
 TODO
