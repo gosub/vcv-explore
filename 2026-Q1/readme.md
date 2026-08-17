@@ -31,4 +31,4 @@ drunk the drummer is.
 
 ![knee-deep in the dread patch screenshot](media/2026-01-17_knee-deep_in_the_dread.webp)
 
-TODO
+The sound source for is patch is an *Audible Instruments Macro Oscillator* through a *Surge XT Reverb 1* and a *VULT Debriatus* distortion unit.
