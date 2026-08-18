@@ -96,3 +96,23 @@ the whole filter tuning is replaced at once.
 
 Chaos modulating chaos, to find out whether the result stays listenable. It
 does, mostly, which was the surprise.
+
+## tilt shift - 2026-07-21 (VCV Rack 2.6.6)
+
+![tilt shift patch screenshot](media/2026-07-21_tilt_shift.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| Audible Instruments | Macro Oscillator ×2 | Braids, one carrier and one modulator |
+| Audible Instruments | Meta Modulator | Warps, folding the two into each other |
+| Nonlinear Circuits | Sloth Apathy ×6 | six chaotic LFOs, one per destination |
+| VCV Free | VCF | lowpass, its cutoff on the slowest Sloth |
+| VCV Core | Audio 2 | output |
+
+The same idea as the patch before it, a day later, with oscillators where the
+resonator was. Six *Sloths* feed five destinations: timbre and colour on each
+*Braids*, frequency modulation on one of them, cutoff on the filter. *Warps*
+cross modulates the two oscillators, so even the carrier is not stable.
+
+Mono, no clock, no sequence, nothing to start or stop. It is left running and
+listened to at intervals.
