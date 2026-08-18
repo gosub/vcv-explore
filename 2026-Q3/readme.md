@@ -68,15 +68,14 @@ a granular exploration.
 | NYSTHI | mix8 | mixer |
 | VCV Core | Audio 2 | output |
 
-The most conventional patch in this quarter: a clock, a sequencer, a drum kit.
-Every division of *Simple Clock* is doing something — /4 runs the Muxlicer and
-the kick, /16 accents it, /32 reloads the sample and holds that set Plaits'
-timbre, morph and harmonics. So the melody changes note by note and its
-character changes every eight bars.
+Four voices, not much unpredictability. A couple of *Bernoulli Gate* channels
+decide when the kick sounds, and when an open hi-hat sounds instead of a closed
+one. A couple of sample and holds, driven by a clock divided by 32, change
+*Plaits*' parameters.
 
-A *Bernoulli Gate* sits in front of the drums deciding each hat between open
-and closed, and whether the kick plays at all, which is the only thing keeping
-a very square patch from being entirely predictable.
+I wanted to try out the *GHOST* drum modules, and put a fairly unoriginal
+*Plaits* sequence over the top. Nothing to write home about, all told.
+Predictable, but not that bad either, really.
 
 ## apathy and scurvy - 2026-07-20 (VCV Rack 2.6.6)
 
