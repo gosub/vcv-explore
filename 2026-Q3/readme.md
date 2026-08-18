@@ -197,3 +197,23 @@ Seven cables. The interesting one is the *Merge*: scrupea's left and right are
 folded into a single polyphonic cable so that one viginti filters both channels
 at once, then *Split* takes them back apart. One filter, two channels, and the
 MS-20 diodes clipping identically on each.
+
+## grone recreation - 2026-08-12 (VCV Rack 2.6.6)
+
+![grone recreation patch screenshot](media/2026-08-12_grone_recreation.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| Spherical Sound Society Free | GlitchStorm | the source, a byte-beat style generator |
+| forsitan modulare | viginti | MS-20 lowpass |
+| VCV Free | LFO | sweeps the cutoff |
+| Audible Instruments | Texture Synthesizer | Clouds, in texture mode |
+| VCV Core | Audio 2 | output |
+
+Five cables, which is as short as a signal path gets. *GlitchStorm* generates,
+the MS-20 filter takes the top off it with an LFO walking the cutoff, and
+*Clouds* turns whatever it is handed into a slowly breathing texture.
+
+The point is the last stage: Clouds in texture mode will accept almost any
+source and give back the same kind of cloud, so the patch is really about how
+much of GlitchStorm's character survives it. Some does.
