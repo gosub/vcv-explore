@@ -11,6 +11,8 @@ More recent folders also include a screenshot of the rack.
 
 ## Patches by period
 
+- [2026 Q3](2026-Q3/)
+- [2026 Q2](2026-Q2/)
 - [2026 Q1](2026-Q1/)
 - [2025](2025/)
 - [2024](2024/)
