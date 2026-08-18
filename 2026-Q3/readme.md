@@ -76,3 +76,23 @@ character changes every eight bars.
 A *Bernoulli Gate* sits in front of the drums deciding each hat between open
 and closed, and whether the kick plays at all, which is the only thing keeping
 a very square patch from being entirely predictable.
+
+## apathy and scurvy - 2026-07-20 (VCV Rack 2.6.6)
+
+![apathy and scurvy patch screenshot](media/2026-07-20_apathy_and_scurvy.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| forsitan modulare | guttur | chaotic resonator drone, the entire voice |
+| Nonlinear Circuits | Sloth Apathy ×4 | four chaotic slow LFOs, one per destination |
+| Squinky Labs | Comp | compressor |
+| VCV Core | Audio 2 | output |
+
+Six cables in the whole patch. *guttur* is a Duffing oscillator through 48
+resonant filters, chaotic by construction, and the four *Sloths* are chaotic
+too, each drifting on its own scale of minutes. Drive, damping and resonance
+take the small outputs; the big one walks the bank selection, so every so often
+the whole filter tuning is replaced at once.
+
+Chaos modulating chaos, to find out whether the result stays listenable. It
+does, mostly, which was the surprise.
