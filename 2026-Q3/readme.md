@@ -24,3 +24,25 @@ made of the same two oscillators.
 A homage to Éliane Radigue, whose music this does not come near, but whose
 method — two sources, almost in tune, given enough time — is the only
 instruction it follows.
+
+## sheep as the symbol of sleep - 2026-07-12 (VCV Rack 2.6.6)
+
+![sheep as the symbol of sleep patch screenshot](media/2026-07-12_sheep_as_the_symbol_of_sleep.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| JW-Modules | Grains | granular sampler, the only sound source |
+| VCV Free | Wavetable LFO | the slow scan |
+| Befaco | A*B+C | scales that scan into the grain position range |
+| Vult Modules Free | Debriatus | distortion |
+| Surge XT | Chorus | widens it (a second one sits unpatched) |
+| Sapphire | Galaxy | reverb |
+| VCV Core | Audio 2 | output |
+
+Eleven cables, and six of them are just the signal walking to the output. A
+granular sampler has its playback position swept by one wavetable LFO, scaled
+into range by *A\*B+C*, and everything after that is blur: distortion, chorus,
+reverb, three stages that each smear it further.
+
+The title counts sheep, and the patch is built to be dozed off to, though the
+distortion argues with the idea.
