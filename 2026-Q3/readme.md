@@ -46,3 +46,33 @@ reverb, three stages that each smear it further.
 
 The title counts sheep, and the patch is built to be dozed off to, though the
 distortion argues with the idea.
+
+## stale branch - 2026-07-12 (VCV Rack 2.6.6)
+
+![stale branch patch screenshot](media/2026-07-12_stale_branch.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| JW-Modules | Simple Clock | master clock, with the /4, /16 and /32 taps doing all the timing |
+| Befaco | Muxlicer | the melodic sequencer |
+| VCV Free | Quantizer | its steps into a scale |
+| Tiny Tricks | Sample and hold x16 | every 32 clocks, three new values for the oscillator |
+| Audible Instruments | Macro Oscillator 2 | Plaits, the melodic voice |
+| Alright Devices | Chronoblob2 | clock synced delay |
+| Valley | Plateau | reverb |
+| Audible Instruments | Bernoulli Gate | coin flips: open or closed hat, and whether the kick fires |
+| Ghost | GHOST OHCH | hi-hats, open and closed |
+| Ghost | GHOST KCK | kick |
+| ProducerPack | 70sComp | compressor on the kick |
+| NYSTHI | mix8 | mixer |
+| VCV Core | Audio 2 | output |
+
+The most conventional patch in this quarter: a clock, a sequencer, a drum kit.
+Every division of *Simple Clock* is doing something — /4 runs the Muxlicer and
+the kick, /16 accents it, /32 reloads the sample and holds that set Plaits'
+timbre, morph and harmonics. So the melody changes note by note and its
+character changes every eight bars.
+
+A *Bernoulli Gate* sits in front of the drums deciding each hat between open
+and closed, and whether the kick plays at all, which is the only thing keeping
+a very square patch from being entirely predictable.
