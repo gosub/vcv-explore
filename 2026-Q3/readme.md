@@ -156,3 +156,23 @@ one set to a different corner of its range, and that is the entire kit.
 The distortion and the reverb come after the mixer rather than per voice, so
 the three drums are crushed and put in a room together. It makes them sound
 like one instrument being played instead of three modules firing.
+
+## vortexcal - 2026-08-09 (VCV Rack 2.6.6)
+
+![vortexcal patch screenshot](media/2026-08-09_vortexcal.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| forsitan modulare | vorax | feedback drone synthesizer, the source |
+| forsitan modulare | textor | loop weaver, two seconds rewoven at every turn |
+| forsitan modulare | caligo | Greyhole echo, a long modulated delay in an allpass diffuser |
+| VCV Core | Audio 2 | output |
+
+Four modules in one line, three of them mine: *vorax* howls, *textor* catches
+two seconds of the howl and reweaves it, *caligo* smears the result down a
+nested allpass. Six cables, no modulation sources, no clock.
+
+Every change you hear comes from feedback — each of the three has a loop inside
+it, and they are chained so that each one is fed a signal that never settles.
+The patch was a test of whether the three would sit together without becoming
+mud.
