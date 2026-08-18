@@ -35,17 +35,18 @@ instruction it follows.
 | VCV Free | Wavetable LFO | the slow scan |
 | Befaco | A*B+C | scales that scan into the grain position range |
 | Vult Modules Free | Debriatus | distortion |
-| Surge XT | Chorus | widens it (a second one sits unpatched) |
+| Surge XT | Chorus | widens it |
 | Sapphire | Galaxy | reverb |
 | VCV Core | Audio 2 | output |
 
-Eleven cables, and six of them are just the signal walking to the output. A
-granular sampler has its playback position swept by one wavetable LFO, scaled
-into range by *A\*B+C*, and everything after that is blur: distortion, chorus,
-reverb, three stages that each smear it further.
+A wavetable LFO generates an oscillation that *A\*B+C* scales and offsets, to
+centre it on the interesting part of the sample loaded into *Grains*. The
+signal then passes through distortion, chorus and reverb.
 
-The title counts sheep, and the patch is built to be dozed off to, though the
-distortion argues with the idea.
+There is an advert on Italian television for a melatonin tablet that helps you
+sleep well. In it a sheep makes a sound that has always caught my ear
+acoustically. I sampled the spot, and in this patch it is the audio source for
+a granular exploration.
 
 ## stale branch - 2026-07-12 (VCV Rack 2.6.6)
 
