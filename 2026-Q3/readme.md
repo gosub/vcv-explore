@@ -217,3 +217,27 @@ the MS-20 filter takes the top off it with an LFO walking the cutoff, and
 The point is the last stage: Clouds in texture mode will accept almost any
 source and give back the same kind of cloud, so the patch is really about how
 much of GlitchStorm's character survives it. Some does.
+
+## phiano rhomano - 2026-08-13 (VCV Rack 2.6.6)
+
+![phiano rhomano patch screenshot](media/2026-08-13_phiano_rhomano.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| VCV Free | LFO ×6 | two per voice: one making gates, one modulating its rate |
+| Bogaudio | OFFSET ×3 | sets each voice's pitch range |
+| VCV Free | Quantizer ×3 | one per voice, offsets into notes |
+| Venom | Merge 4x2 | three gates and three pitches into two polyphonic cables |
+| Signal Function Set | Play | sample player, three voices at once |
+| VCV Free | Delay ×2 | one per output channel |
+| VCV Core | Audio 2 | output |
+
+Three identical voices, and the trick is in each one being slightly wrong. A
+square LFO makes the gates while a second LFO modulates that first one's rate,
+so no voice keeps a steady tempo and no two of them stay lined up for long.
+Their pitches come from a fixed offset through a quantizer, so each voice has
+its own register and its own handful of notes.
+
+All three are merged into one polyphonic gate cable and one polyphonic pitch
+cable, handed to a single sample player, and the two outputs each get a delay.
+Three players at one piano, none of them counting.
