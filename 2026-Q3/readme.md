@@ -241,3 +241,35 @@ its own register and its own handful of notes.
 All three are merged into one polyphonic gate cable and one polyphonic pitch
 cable, handed to a single sample player, and the two outputs each get a delay.
 Three players at one piano, none of them counting.
+
+## three pedestals (disquiet 0763) - 2026-08-14 (VCV Rack 2.6.6)
+
+![three pedestals (disquiet 0763) patch screenshot](media/2026-08-14_three_pedestals_disquiet0763.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| NYSTHI | MusicalBox | the first voice, a music box |
+| Squinky Labs | Stairway | filter on it, cutoff from the first pedestal |
+| Sapphire | Galaxy | its reverb |
+| Bogaudio | ADDR-SEQ + VCV Quantizer | pitches for the second voice |
+| Befaco | PonyVCO | the second voice |
+| Vult Modules Free | Boomstick | filter and drive on it |
+| ML Modules | FreeVerb, Ambivalent Instruments Delay | its reverb and delay |
+| forsitan modulare | cumuli ×3 | the three pedestals: accumulators that ramp and stay put |
+| NYSTHI | Single VU Meter ×3 | reads each pedestal back out as a control voltage |
+| Vult Modules Free | Send + Surge XT Distortion | a distortion in a send loop, blend on the second pedestal |
+| Befaco | Dual Atenuverter | scales the third pedestal into a level CV |
+| Befaco | STMix, Bogaudio MIX2 ×2 | mixing |
+| VCV Recorder | Recorder | for the submission |
+| VCV Core | Audio 2 | output |
+
+Made for [Disquiet Junto project 0763](https://disquiet.com/junto/). Twenty-six
+modules, but only two voices: a music box through a filter and a reverb, and a
+*PonyVCO* through *Boomstick* into a reverb and a delay.
+
+What the title calls pedestals are three *cumuli*, accumulators that ramp up or
+down while a gate is held and then stay exactly where they were left. Each one
+drives a single thing: the music box's filter cutoff, the blend into the
+distortion, and the final mix level. They are the only performance controls in
+the patch. Everything else runs on its own, and playing it means leaning on
+three pedals and waiting.
