@@ -135,3 +135,24 @@ Bernoulli coin flips to trigger one of the three players.
 
 So nothing outside the patch decides when a sample plays: it plays because the
 memory effect remembered something, which gives it something new to remember.
+
+## tundo graph - 2026-08-07 (VCV Rack 2.6.6)
+
+![tundo graph patch screenshot](media/2026-08-07_tundo_graph.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| Valley | Topograph | Mutable Grids: three streams of drum triggers |
+| forsitan modulare | tundo ×3 | one drum voice per stream |
+| VCV Free | VCA Mix | mixes the three |
+| FLAG Free | Thorns | distortion on the whole kit |
+| forsitan modulare | antrum | reverb |
+| VCV Core | Audio 2 | output |
+
+Ten cables, and the patch is exactly what its name is: *tundo* against
+*Topograph*. Grids' bass, snare and hi-hat outputs trigger three tundo, each
+one set to a different corner of its range, and that is the entire kit.
+
+The distortion and the reverb come after the mixer rather than per voice, so
+the three drums are crushed and put in a room together. It makes them sound
+like one instrument being played instead of three modules firing.
