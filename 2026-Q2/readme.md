@@ -20,9 +20,6 @@ Everything in this patch serves one module. *scando* is a scanned synthesis
 oscillator: a mass-spring string, struck and then read around as a wavetable,
 so you hear the shape of the string rather than the string itself.
 
-*Clkd* drives a *Turing Machine* whose pulses are the hammer. Every eighth
-pulse, through the *Clock Divider* and a *Mult*, the *holder8* bank samples
-at once and drops five new voltages onto pitch, mass, damping, centering and
-shape. The string is struck constantly and rebuilt rarely: it gets a while to
-ring in one body before being quietly given another. *Galaxy* provides the
-room it rings in.
+It was a test more than a piece: *scando* had just been released in
+*forsitan modulare*, my own plugin, and I wanted to hear how far its sonic
+palette went.
