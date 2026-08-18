@@ -214,9 +214,11 @@ Five cables, which is as short as a signal path gets. *GlitchStorm* generates,
 the MS-20 filter takes the top off it with an LFO walking the cutoff, and
 *Clouds* turns whatever it is handed into a slowly breathing texture.
 
-The point is the last stage: Clouds in texture mode will accept almost any
-source and give back the same kind of cloud, so the patch is really about how
-much of GlitchStorm's character survives it. Some does.
+It is an attempt at recreating the [Maneco Labs
+Grone](https://manecolabs.com/), a eurorack drone synthesizer, out of modules
+that were never meant to be one: a generator with no tuning to speak of, a
+filter with a mind of its own, and a texture stage to hold the result together.
+Not the same instrument, but it drones in the same direction.
 
 ## phiano rhomano - 2026-08-13 (VCV Rack 2.6.6)
 
@@ -263,9 +265,10 @@ Three players at one piano, none of them counting.
 | VCV Recorder | Recorder | for the submission |
 | VCV Core | Audio 2 | output |
 
-Made for [Disquiet Junto project 0763](https://disquiet.com/junto/). Twenty-six
-modules, but only two voices: a music box through a filter and a reverb, and a
-*PonyVCO* through *Boomstick* into a reverb and a delay.
+Made for [Disquiet Junto project 0763: 3
+Pedestals](https://disquiet.com/2026/08/13/disquiet-junto-project-0763-3-pedestals/).
+Twenty-six modules, but only two voices: a music box through a filter and a
+reverb, and a *PonyVCO* through *Boomstick* into a reverb and a delay.
 
 What the title calls pedestals are three *cumuli*, accumulators that ramp up or
 down while a gate is held and then stay exactly where they were left. Each one
@@ -273,6 +276,8 @@ drives a single thing: the music box's filter cutoff, the blend into the
 distortion, and the final mix level. They are the only performance controls in
 the patch. Everything else runs on its own, and playing it means leaning on
 three pedals and waiting.
+
+The recorded result is on [YouTube](https://www.youtube.com/watch?v=GdOqFZAahUU).
 
 ## dac as delay - 2026-08-17 (VCV Rack 2.6.6)
 
