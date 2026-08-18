@@ -297,3 +297,32 @@ taps survive at all.
 
 *Karplus* plucks into it, *Saws* sits underneath, and the *LPG* at the end
 keeps the whole thing from being relentless. Mono, and it should be.
+
+## weird ghosts - 2026-08-17 (VCV Rack 2.6.6)
+
+![weird ghosts patch screenshot](media/2026-08-17_weird_ghosts.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| Tapestry | Wyrd | the brain: its agitation output is the clock, its CVs run the patch |
+| Bogaudio | CVD | delays one of Wyrd's CVs before it returns to Wyrd |
+| Ghost | GHOST KCK | kick, on the same agitation |
+| Befaco | PonyVCO | the second voice |
+| Nonlinear Circuits | Sloth Apathy, Sloth Inertia | chaos on that voice's timbre and cutoff |
+| forsitan modulare | viginti | MS-20 lowpass on it |
+| Count Modula | Clock Divider | ÷8, gating the reverb's reverse |
+| forsitan modulare | antrum | reverb, turned backwards every eighth clock |
+| Befaco | STMix ×2 | mixing |
+| ProducerPack | 70sComp ×2 | compression |
+| VCV Core | Audio 2 | output |
+
+*Wyrd* runs everything: it is the clock, by way of its agitation output, and
+its CV outputs come back into its own inputs through *CVD*, so it modulates
+itself with a delayed copy of itself and never quite repeats. The kick fires on
+that same agitation.
+
+Beside it, a *PonyVCO* through *viginti* is pushed around by two *Sloths*.
+Both meet in the mixers and go through *antrum*, whose reverse gate is switched
+by a ÷8 divider — every eighth clock the room turns backwards and then turns
+back. The name is the *Wyrd* and the *GHOST* modules, and the patch does sound
+haunted.
