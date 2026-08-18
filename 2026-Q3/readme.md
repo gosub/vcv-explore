@@ -116,3 +116,22 @@ cross modulates the two oscillators, so even the carrier is not stable.
 
 Mono, no clock, no sequence, nothing to start or stop. It is left running and
 listened to at intervals.
+
+## little psychedelia - 2026-07-25 (VCV Rack 2.6.6)
+
+![little psychedelia patch screenshot](media/2026-07-25_little_psychedelia.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| 4ms | Basic WAV Player ×3 | three samples |
+| forsitan modulare | vestigia | stereo memory effect, fed by all three |
+| Audible Instruments | Bernoulli Gate | routes vestigia's own recall events back as play triggers |
+| VCV Core | Audio 2 | output |
+
+A loop with the tape in charge. Three players feed *vestigia*, a memory effect
+that records what it hears, degrades it and recalls it later. When vestigia
+begins a recollection it emits an event, and that event runs through two
+Bernoulli coin flips to trigger one of the three players.
+
+So nothing outside the patch decides when a sample plays: it plays because the
+memory effect remembered something, which gives it something new to remember.
