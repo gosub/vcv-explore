@@ -273,3 +273,27 @@ drives a single thing: the music box's filter cutoff, the blend into the
 distortion, and the final mix level. They are the only performance controls in
 the patch. Everything else runs on its own, and playing it means leaning on
 three pedals and waiting.
+
+## dac as delay - 2026-08-17 (VCV Rack 2.6.6)
+
+![dac as delay patch screenshot](media/2026-08-17_dac_as_delay.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| Bidoo | BISTROT | the DAC, wired into itself as a delay line |
+| Tiny Tricks | Random Mute x8 | passes each channel to the next one up, dropping some at random |
+| 4ms | Karplus | plucked source |
+| Squinky Labs | Saws | a second source underneath |
+| VCV Free | Pulses | two trigger streams |
+| 4ms | LPG | low pass gate on the output |
+| VCV Core | Audio 2 | output |
+
+The patch is one idea, and the title states it. *BISTROT*'s channels are wired
+to each other's neighbours through *Random Mute x8* — channel 1 out to channel
+3 in, 2 to 4, and so on up the chain — so a signal put in at the bottom climbs
+the module one stage at a time. That is a delay line built out of a converter,
+with a quantisation stage at every tap, and the random mutes deciding which
+taps survive at all.
+
+*Karplus* plucks into it, *Saws* sits underneath, and the *LPG* at the end
+keeps the whole thing from being relentless. Mono, and it should be.
