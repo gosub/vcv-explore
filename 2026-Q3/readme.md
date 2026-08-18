@@ -176,3 +176,24 @@ Every change you hear comes from feedback — each of the three has a loop insid
 it, and they are chained so that each one is fed a signal that never settles.
 The patch was a test of whether the three would sit together without becoming
 mud.
+
+## scrappy apathic twenties - 2026-08-11 (VCV Rack 2.6.6)
+
+![scrappy apathic twenties patch screenshot](media/2026-08-11_scrappy_apathic_twenties.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| forsitan modulare | scrupea | chaotic bank: 16 oscillators into tuned feedback combs |
+| VCV Free | Merge | its stereo pair into one polyphonic cable |
+| forsitan modulare | viginti | MS-20 lowpass, filtering both channels at once |
+| Nonlinear Circuits | Sloth Apathy | chaotic LFO on the cutoff |
+| VCV Free | Split | back apart into stereo |
+| VCV Core | Audio 2 | output |
+
+The title names its three modules: **scr**upea, Sloth **Apathy**, and *viginti*,
+which is twenty in Latin.
+
+Seven cables. The interesting one is the *Merge*: scrupea's left and right are
+folded into a single polyphonic cable so that one viginti filters both channels
+at once, then *Split* takes them back apart. One filter, two channels, and the
+MS-20 diodes clipping identically on each.
