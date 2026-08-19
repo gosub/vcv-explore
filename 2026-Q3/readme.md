@@ -272,15 +272,13 @@ The recorded result is on [YouTube](https://www.youtube.com/watch?v=GdOqFZAahUU)
 | 4ms | LPG | low pass gate on the output |
 | VCV Core | Audio 2 | output |
 
-The patch is one idea, and the title states it. *BISTROT*'s channels are wired
-to each other's neighbours through *Random Mute x8* — channel 1 out to channel
-3 in, 2 to 4, and so on up the chain — so a signal put in at the bottom climbs
-the module one stage at a time. That is a delay line built out of a converter,
-with a quantisation stage at every tap, and the random mutes deciding which
-taps survive at all.
-
-*Karplus* plucks into it, *Saws* sits underneath, and the *LPG* at the end
-keeps the whole thing from being relentless. Mono, and it should be.
+I thought *BISTROT* was a DAC, that it put out the 8 bits of the DAC/ADC, but
+apparently it is not so, because wiring the inputs and the outputs into each
+other should reconstruct the original signal, while what comes out is a sound
+that lasts longer... there is no manual and I do not feel like reading the
+code, so we keep it like this, in mystery, since it sounds good enough and raw,
+the way I like it. Behind it a supersaw, to tear apart the wood you have in
+your ears.
 
 ## weird ghosts - 2026-08-17 (VCV Rack 2.6.6)
 
