@@ -105,13 +105,13 @@ and explore some of *guttur*'s sonic possibilities.
 | VCV Free | VCF | lowpass, its cutoff on the slowest Sloth |
 | VCV Core | Audio 2 | output |
 
-The same idea as the patch before it, a day later, with oscillators where the
-resonator was. Six *Sloths* feed five destinations: timbre and colour on each
-*Braids*, frequency modulation on one of them, cutoff on the filter. *Warps*
-cross modulates the two oscillators, so even the carrier is not stable.
-
-Mono, no clock, no sequence, nothing to start or stop. It is left running and
-listened to at intervals.
+*Braids* (Macro Oscillator) is a module that will never leave my heart. Famous
+as it is, I think it is badly underrated, and its expressive possibilities are
+not explored enough. This patch is one of those explorations: two *Braids*
+modulated slowly by a pack of *NLC Sloths*, the two signals set into each other
+with *Warps* (Meta Modulator), the whole thing seasoned with a good lowpass
+filter. I love drones, I love noise, and I love noisy drones. Where we are
+going, we do not need clocks.
 
 ## little psychedelia - 2026-07-25 (VCV Rack 2.6.6)
 
