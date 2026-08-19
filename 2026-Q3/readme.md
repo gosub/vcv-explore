@@ -182,13 +182,12 @@ just turn the weave knob a little. Or wait a while, the loops evolve slowly.
 | VCV Free | Split | back apart into stereo |
 | VCV Core | Audio 2 | output |
 
-The title names its three modules: **scr**upea, Sloth **Apathy**, and *viginti*,
-which is twenty in Latin.
+The title is a pun on its three modules: **scr**upea, Sloth **Apathy**, and
+*viginti*, which is twenty in Latin.
 
-Seven cables. The interesting one is the *Merge*: scrupea's left and right are
-folded into a single polyphonic cable so that one viginti filters both channels
-at once, then *Split* takes them back apart. One filter, two channels, and the
-MS-20 diodes clipping identically on each.
+But what do you want, that I turn the volume down? *scrupea* rips the face off
+your face, *viginti* tries to stick it back on with a bit of glue. In the end
+beauty is a subjective concept, no?
 
 ## grone recreation - 2026-08-12 (VCV Rack 2.6.6)
 
