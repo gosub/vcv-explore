@@ -124,13 +124,13 @@ going, we do not need clocks.
 | Audible Instruments | Bernoulli Gate | routes vestigia's own recall events back as play triggers |
 | VCV Core | Audio 2 | output |
 
-A loop with the tape in charge. Three players feed *vestigia*, a memory effect
-that records what it hears, degrades it and recalls it later. When vestigia
-begins a recollection it emits an event, and that event runs through two
-Bernoulli coin flips to trigger one of the three players.
-
-So nothing outside the patch decides when a sample plays: it plays because the
-memory effect remembered something, which gives it something new to remember.
+The patch has to be set in motion by hitting play on one of the three sample
+players. Of course you will not have the same samples I have, so load in
+something that sounds good together, but not too similar to each other.
+*vestigia* listens to the audio input, remembers it, and generates audio events
+out of it. The event output triggers a *Bernoulli Gate* that routes a play
+trigger at random to one of the sample players. The sample beast remembers, the
+sample beast feeds itself.
 
 ## tundo graph - 2026-08-07 (VCV Rack 2.6.6)
 
