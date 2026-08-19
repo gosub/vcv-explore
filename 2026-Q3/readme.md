@@ -256,13 +256,6 @@ Pedestals](https://disquiet.com/2026/08/13/disquiet-junto-project-0763-3-pedesta
 Twenty-six modules, but only two voices: a music box through a filter and a
 reverb, and a *PonyVCO* through *Boomstick* into a reverb and a delay.
 
-What the title calls pedestals are three *cumuli*, accumulators that ramp up or
-down while a gate is held and then stay exactly where they were left. Each one
-drives a single thing: the music box's filter cutoff, the blend into the
-distortion, and the final mix level. They are the only performance controls in
-the patch. Everything else runs on its own, and playing it means leaning on
-three pedals and waiting.
-
 The recorded result is on [YouTube](https://www.youtube.com/watch?v=GdOqFZAahUU).
 
 ## dac as delay - 2026-08-17 (VCV Rack 2.6.6)
