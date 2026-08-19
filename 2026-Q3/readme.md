@@ -145,13 +145,11 @@ sample beast feeds itself.
 | forsitan modulare | antrum | reverb |
 | VCV Core | Audio 2 | output |
 
-Ten cables, and the patch is exactly what its name is: *tundo* against
-*Topograph*. Grids' bass, snare and hi-hat outputs trigger three tundo, each
-one set to a different corner of its range, and that is the entire kit.
-
-The distortion and the reverb come after the mixer rather than per voice, so
-the three drums are crushed and put in a room together. It makes them sound
-like one instrument being played instead of three modules firing.
+A test patch, to hear what *tundo* sounds like. I made a small drum machine out
+of three of them, with *Topograph* so I would not have to bother sequencing a
+drum pattern myself. Play with Topograph's X and Y parameters to explore the
+latent space of a drummer's mind. Distortion and reverb added to taste, before
+serving at the table, piping hot.
 
 ## vortexcal - 2026-08-09 (VCV Rack 2.6.6)
 
