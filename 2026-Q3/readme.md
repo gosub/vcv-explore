@@ -201,15 +201,11 @@ beauty is a subjective concept, no?
 | Audible Instruments | Texture Synthesizer | Clouds, in texture mode |
 | VCV Core | Audio 2 | output |
 
-Five cables, which is as short as a signal path gets. *GlitchStorm* generates,
-the MS-20 filter takes the top off it with an LFO walking the cutoff, and
-*Clouds* turns whatever it is handed into a slowly breathing texture.
-
-It is an attempt at recreating the [Maneco Labs
-Grone](https://manecolabs.com/), a eurorack drone synthesizer, out of modules
-that were never meant to be one: a generator with no tuning to speak of, a
-filter with a mind of its own, and a texture stage to hold the result together.
-Not the same instrument, but it drones in the same direction.
+It is a pallid attempt at recreating the [Maneco Labs
+Grone](https://manecolabs.com/): a bytebeat generator with several algorithms,
+three parameters and a variable generation frequency, an LFO, an MS-20 style
+filter, and *Clouds*. It is not like the original, but no less fun. I recommend
+playing with *GlitchStorm*'s parameters!
 
 ## phiano rhomano - 2026-08-13 (VCV Rack 2.6.6)
 
