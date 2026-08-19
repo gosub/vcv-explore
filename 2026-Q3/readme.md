@@ -22,8 +22,8 @@ every waveform at once. The ring modulator and the filter add two more voices
 made of the same two oscillators.
 
 A homage to Éliane Radigue, whose music this does not come near, but whose
-method — two sources, almost in tune, given enough time — is the only
-instruction it follows.
+method, two sources almost in tune given enough time, is the only instruction
+it follows.
 
 ## sheep as the symbol of sleep - 2026-07-12 (VCV Rack 2.6.6)
 
@@ -305,6 +305,6 @@ that same agitation.
 
 Beside it, a *PonyVCO* through *viginti* is pushed around by two *Sloths*.
 Both meet in the mixers and go through *antrum*, whose reverse gate is switched
-by a ÷8 divider — every eighth clock the room turns backwards and then turns
+by a ÷8 divider: every eighth clock the room turns backwards and then turns
 back. The name is the *Wyrd* and the *GHOST* modules, and the patch does sound
 haunted.
