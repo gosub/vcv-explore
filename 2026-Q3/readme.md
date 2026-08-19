@@ -221,15 +221,14 @@ playing with *GlitchStorm*'s parameters!
 | VCV Free | Delay ×2 | one per output channel |
 | VCV Core | Audio 2 | output |
 
-Three identical voices, and the trick is in each one being slightly wrong. A
-square LFO makes the gates while a second LFO modulates that first one's rate,
-so no voice keeps a steady tempo and no two of them stay lined up for long.
-Their pitches come from a fixed offset through a quantizer, so each voice has
-its own register and its own handful of notes.
+The title is a play on words: phase piano, phiano, fiano, Fiano Romano (a town
+near Rome).
 
-All three are merged into one polyphonic gate cable and one polyphonic pitch
-cable, handed to a single sample player, and the two outputs each get a delay.
-Three players at one piano, none of them counting.
+I loaded a grand piano sample into the SFZ player. Three LFOs modulate the rate
+of three independent clocks, each one playing a different note of the piano.
+The notes are quantized to a harmonic minor scale, so if you change the offset
+on the *Bogaudio OFFSET*, the note changes but still sounds good. I had a
+feeling it would sound good, but I thought it would sound better.
 
 ## three pedestals (disquiet 0763) - 2026-08-14 (VCV Rack 2.6.6)
 
