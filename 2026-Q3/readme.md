@@ -88,14 +88,10 @@ Predictable, but not that bad either, really.
 | Squinky Labs | Comp | compressor |
 | VCV Core | Audio 2 | output |
 
-Six cables in the whole patch. *guttur* is a Duffing oscillator through 48
-resonant filters, chaotic by construction, and the four *Sloths* are chaotic
-too, each drifting on its own scale of minutes. Drive, damping and resonance
-take the small outputs; the big one walks the bank selection, so every so often
-the whole filter tuning is replaced at once.
-
-Chaos modulating chaos, to find out whether the result stays listenable. It
-does, mostly, which was the surprise.
+I made this patch after building *guttur*, because it uses an unconventional
+kind of synthesis and it is hard to find the hot spots where the interesting
+sounds are. The patch uses the *NLC Sloths* to randomize its parameters slowly,
+and explore some of *guttur*'s sonic possibilities.
 
 ## tilt shift - 2026-07-21 (VCV Rack 2.6.6)
 
