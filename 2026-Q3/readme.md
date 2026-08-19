@@ -162,14 +162,12 @@ serving at the table, piping hot.
 | forsitan modulare | caligo | Greyhole echo, a long modulated delay in an allpass diffuser |
 | VCV Core | Audio 2 | output |
 
-Four modules in one line, three of them mine: *vorax* howls, *textor* catches
-two seconds of the howl and reweaves it, *caligo* smears the result down a
-nested allpass. Six cables, no modulation sources, no clock.
-
-Every change you hear comes from feedback — each of the three has a loop inside
-it, and they are chained so that each one is fed a signal that never settles.
-The patch was a test of whether the three would sit together without becoming
-mud.
+Look mum, I made ambient drone at home! Three *forsitan modulare* modules
+working together so we do not feel alone. To get anything going you have to
+start the recording on *textor*, which stops by itself after sampling a couple
+of seconds of howling from *vorax*. If you do not like the loop that comes out,
+just turn the weave knob a little. Or wait a while, the loops evolve slowly.
+*caligo* has the single job of carrying us out into interstellar space.
 
 ## scrappy apathic twenties - 2026-08-11 (VCV Rack 2.6.6)
 
