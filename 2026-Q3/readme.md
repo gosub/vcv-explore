@@ -308,3 +308,23 @@ Both meet in the mixers and go through *antrum*, whose reverse gate is switched
 by a ÷8 divider: every eighth clock the room turns backwards and then turns
 back. The name is the *Wyrd* and the *GHOST* modules, and the patch does sound
 haunted.
+
+## exposed - 2026-08-31 (VCV Rack 2.6.6)
+
+![exposed patch screenshot](media/2026-08-31_exposed.webp)
+
+| Plugin | Module | Role in the patch |
+|---|---|---|
+| forsitan modulare | vorax | feedback drone, a self exciting string, straight into the mixer |
+| VCV Free | LFO | a slow square, the only clock in the patch |
+| forsitan modulare | materiae | percussion out of two squares and the relation between them |
+| forsitan modulare | caligo | Greyhole echo, the only way materiae reaches the mixer |
+| 4ms | Stereo Mixer | two channels: the bare drone and the echo |
+| VCV Free | Scope | on the way out, to watch what is going on |
+| VCV Core | Audio 2 | output |
+
+A drone and a pulse, with nothing in between. *vorax* howls into the mixer with
+nothing on it, no filter and no reverb, exposed. Next to it a slow square knocks
+on *materiae*, whose percussion never reaches the mixer on its own: the only way
+out is *caligo*, so every hit arrives already dissolved into a long echo. Two
+channels, one of them bare and the other one all tail.
