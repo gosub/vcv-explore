@@ -323,8 +323,8 @@ haunted.
 | VCV Free | Scope | on the way out, to watch what is going on |
 | VCV Core | Audio 2 | output |
 
-A drone and a pulse, with nothing in between. *vorax* howls into the mixer with
+A drone and a pulse, what else do I need? *vorax* howls into the mixer with
 nothing on it, no filter and no reverb, exposed. Next to it a slow square knocks
 on *materiae*, whose percussion never reaches the mixer on its own: the only way
-out is *caligo*, so every hit arrives already dissolved into a long echo. Two
-channels, one of them bare and the other one all tail.
+out is *caligo*, so every hit arrives already dissolved into a long echo. I like
+noise, I am learning to make noise, more and more noise.
